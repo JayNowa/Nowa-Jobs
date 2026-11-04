@@ -3,7 +3,7 @@
   "notify_min_score": 65,
   "remotive_categories": ["human-resources"],
   "jobicy": {"geo": "usa", "industry": "hr", "count": 50},
-  "wwr_feeds": ["https://weworkremotely.com/categories/remote-human-resources-jobs.rss"],
+  "wwr_feeds": ["https://weworkremotely.com/remote-jobs.rss", "https://weworkremotely.com/categories/all-other-remote-jobs.rss", "https://weworkremotely.com/categories/remote-management-and-finance-jobs.rss"],
   "boards": {
     "greenhouse": ["gitlab", "airbnb"],
     "lever": [],
