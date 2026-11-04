@@ -1,0 +1,33 @@
+{
+  "max_age_days": 30,
+  "notify_min_score": 65,
+  "remotive_categories": ["human-resources"],
+  "jobicy": {"geo": "usa", "industry": "hr", "count": 50},
+  "wwr_feeds": ["https://weworkremotely.com/categories/remote-human-resources-jobs.rss"],
+  "boards": {
+    "greenhouse": ["gitlab", "airbnb"],
+    "lever": [],
+    "ashby": []
+  },
+  "roles": {
+    "HRIS": ["\\bhris\\b", "hr systems", "hr technology", "\\bhcm\\b", "people systems", "hr information", "hr analyst"],
+    "Leave and benefits": ["\\bleaves?\\b", "\\babsence\\b", "\\bfmla\\b", "accommodation", "benefits (specialist|administrator|manager|analyst|coordinator)"],
+    "Recruiting": ["recruit", "talent acquisition", "talent partner", "sourcer"],
+    "HR generalist": ["hr generalist", "human resources? generalist", "people operations", "people ops", "hr manager", "hr business partner", "\\bhrbp\\b", "employee relations", "people partner"]
+  },
+  "exclude_titles": ["\\bdirector\\b", "\\bvp\\b", "vice president", "\\bchief\\b", "head of", "\\bintern(ship)?\\b", "volunteer", "\\bprincipal\\b", "software engineer"],
+  "us_terms": ["united states", "usa", "u.s.", "us only", "north america", "americas", "nationwide", "worldwide", "anywhere", "remote - us", "remote, us", "us-remote", "us remote"],
+  "non_us_terms": ["emea", "europe", "united kingdom", "uk only", "canada", "india", "apac", "latam", "australia", "germany", "philippines", "mexico", "brazil", "singapore", "ireland", "poland", "portugal", "spain", "france"],
+  "home_state": "Pennsylvania",
+  "state_names": ["alabama","alaska","arizona","arkansas","california","colorado","connecticut","delaware","florida","georgia","hawaii","idaho","illinois","indiana","iowa","kansas","kentucky","louisiana","maine","maryland","massachusetts","michigan","minnesota","mississippi","missouri","montana","nebraska","nevada","new hampshire","new jersey","new mexico","new york","north carolina","north dakota","ohio","oklahoma","oregon","pennsylvania","rhode island","south carolina","south dakota","tennessee","texas","utah","vermont","virginia","washington","west virginia","wisconsin","wyoming"],
+  "positive_terms": {
+    "async": 5, "asynchronous": 5, "flexible schedule": 8, "flexible hours": 8, "work life balance": 6, "work-life balance": 6,
+    "four day": 8, "4 day": 8, "part time": 3, "part-time": 3, "remote first": 4, "remote-first": 4, "fully remote": 3,
+    "nonprofit": 3, "mission": 3, "adp": 4, "ukg": 4, "ultipro": 4, "workday": 4, "icims": 4, "taleo": 3, "fmla": 4,
+    "shrm": 3, "multistate": 4, "multi-state": 4, "compliance": 2, "full cycle": 3, "full-cycle": 3, "individual contributor": 4
+  },
+  "negative_terms": {
+    "on call": -10, "on-call": -10, "24/7": -10, "fast paced": -4, "fast-paced": -4, "wear many hats": -5,
+    "weekend": -5, "travel up to": -6, "extended hours": -6, "rapidly scaling": -3, "hypergrowth": -5, "other duties as assigned": -1
+  }
+}

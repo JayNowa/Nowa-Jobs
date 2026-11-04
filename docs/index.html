@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Job Radar</title>
+<style>
+:root{--bg:#faf9f6;--card:#fff;--ink:#1f2328;--mute:#6b7280;--line:#e5e2db;--acc:#2f5d50;--accbg:#e6f0ec;--warn:#9a5b00;--warnbg:#fbf0dc}
+@media (prefers-color-scheme:dark){:root{--bg:#16181a;--card:#1f2225;--ink:#eceae4;--mute:#9aa0a6;--line:#33383c;--acc:#7fc4ae;--accbg:#22332e;--warn:#e0a040;--warnbg:#3a2f1a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 system-ui,-apple-system,Segoe UI,sans-serif}
+.wrap{max-width:780px;margin:0 auto;padding:16px}
+h1{font-size:22px;margin:4px 0 2px}
+.sub{color:var(--mute);font-size:14px;margin-bottom:10px}
+.tabs{display:flex;gap:6px;margin:10px 0;flex-wrap:wrap}
+.tab,.btn{font:inherit;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:8px 14px;border-radius:999px;cursor:pointer}
+.tab[aria-selected=true],.btn.pri{background:var(--acc);color:#fff;border-color:var(--acc)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin:10px 0}
+.top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.card h3{margin:0 0 2px;font-size:17px}
+.meta{color:var(--mute);font-size:14px}
+.score{min-width:46px;text-align:center;border-radius:10px;padding:4px 6px;font-weight:700;background:var(--accbg);color:var(--acc)}
+.score.low{background:var(--warnbg);color:var(--warn)}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0}
+.chip{background:var(--accbg);color:var(--acc);border-radius:6px;padding:2px 8px;font-size:12px}
+.chip.flag{background:var(--warnbg);color:var(--warn)}
+.chip.new{background:var(--acc);color:#fff}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+select,input,textarea{font:inherit;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px}
+input[type=search]{flex:1;min-width:140px}
+textarea{width:100%;min-height:140px;resize:vertical}
+a{color:var(--acc)}
+.empty{color:var(--mute);text-align:center;padding:28px 8px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(100px,1fr));gap:8px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px;text-align:center}
+.stat b{display:block;font-size:24px}
+.warnbar{background:var(--warnbg);color:var(--warn);border-radius:8px;padding:8px 10px;font-size:13px;margin:8px 0}
+label.ck{font-size:14px;color:var(--mute);display:flex;gap:6px;align-items:center}
+.hide{display:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Job Radar</h1>
+  <div class="sub" id="upd">Loading...</div>
+  <div class="tabs" role="tablist">
+    <button class="tab" data-t="roles" aria-selected="true">Open roles</button>
+    <button class="tab" data-t="pipe" aria-selected="false">Pipeline</button>
+    <button class="tab" data-t="fit" aria-selected="false">Fit check</button>
+  </div>
+
+  <section id="roles">
+    <div class="row">
+      <input type="search" id="q" placeholder="Search title or company">
+      <select id="role"><option value="">All roles</option></select>
+      <select id="sf"><option value="">All statuses</option><option>New</option><option>Saved</option><option>Applied</option><option>Interview</option><option>Passed</option></select>
+    </div>
+    <div class="row" style="margin:8px 0">
+      <label class="ck"><input type="checkbox" id="restr"> Include state restricted roles</label>
+      <label class="ck"><input type="checkbox" id="hidepassed" checked> Hide passed</label>
+    </div>
+    <div id="warn"></div>
+    <div id="list"></div>
+  </section>
+
+  <section id="pipe" class="hide">
+    <div class="stats" id="stats"></div>
+    <div id="plist"></div>
+  </section>
+
+  <section id="fit" class="hide">
+    <div class="card">
+      <p class="meta" style="margin-top:0">Paste any job description. This scores it with the same rules as the list: flexibility and fit signals add points, on call and crisis style language subtracts them. It runs in your browser and nothing is sent anywhere.</p>
+      <textarea id="jd" placeholder="Paste the full posting here"></textarea>
+      <div class="row" style="margin-top:10px"><button class="btn pri" id="go">Score it</button></div>
+    </div>
+    <div class="card hide" id="out"></div>
+  </section>
+</div>
+
+<script>
+(function(){
+  var STATUSES=["New","Saved","Applied","Interview","Passed"];
+  var data={jobs:[],scoring:{positive:{},negative:{}}}, status={};
+  var $=function(id){return document.getElementById(id)};
+  function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+
+  try{status=JSON.parse(localStorage.getItem("jr-status")||"{}")}catch(e){status={}}
+  function save(){try{localStorage.setItem("jr-status",JSON.stringify(status))}catch(e){}}
+
+  document.querySelectorAll(".tab").forEach(function(b){
+    b.addEventListener("click",function(){
+      document.querySelectorAll(".tab").forEach(function(t){t.setAttribute("aria-selected",t===b?"true":"false")});
+      ["roles","pipe","fit"].forEach(function(id){$(id).classList.toggle("hide",id!==b.dataset.t)});
+      if(b.dataset.t==="pipe") renderPipe();
+    });
+  });
+
+  function daysAgo(d){
+    if(!d) return null;
+    var t=Date.parse(d); if(isNaN(t)) return null;
+    return Math.floor((Date.now()-t)/86400000);
+  }
+  function isNew(j){var a=daysAgo(j.first_seen);return a!==null && a<=3 && (status[j.id]||"New")==="New"}
+
+  function card(j){
+    var st=status[j.id]||"New", a=daysAgo(j.posted);
+    var chips=[];
+    if(isNew(j)) chips.push('<span class="chip new">New</span>');
+    chips.push('<span class="chip">'+esc(j.role)+'</span>');
+    (j.why||[]).forEach(function(w){chips.push('<span class="chip">'+esc(w)+'</span>')});
+    (j.flags||[]).forEach(function(w){chips.push('<span class="chip flag">'+esc(w)+'</span>')});
+    if(j.restricted) chips.push('<span class="chip flag">Location restricted</span>');
+    var opts=STATUSES.map(function(s){return '<option'+(s===st?' selected':'')+'>'+s+'</option>'}).join("");
+    return '<div class="card"><div class="top"><div><h3>'+esc(j.title)+'</h3>'+
+      '<div class="meta">'+esc(j.company)+' · '+esc(j.location)+(j.pay?' · '+esc(j.pay):'')+
+      (a!==null?' · posted '+(a===0?'today':a+' days ago'):'')+'</div></div>'+
+      '<div class="score'+(j.score<50?' low':'')+'" title="Fit score">'+j.score+'</div></div>'+
+      '<div class="chips">'+chips.join("")+'</div>'+
+      (j.snippet?'<div class="meta">'+esc(j.snippet)+'...</div>':'')+
+      '<div class="row" style="margin-top:10px"><a href="'+esc(j.url)+'" target="_blank" rel="noopener">Open posting</a>'+
+      '<select class="stsel" data-id="'+esc(j.id)+'">'+opts+'</select></div></div>';
+  }
+  function bind(root){
+    root.querySelectorAll(".stsel").forEach(function(s){
+      s.addEventListener("change",function(){status[s.dataset.id]=s.value;save();renderList();renderPipe();});
+    });
+  }
+
+  function renderList(){
+    var q=$("q").value.toLowerCase(), rf=$("role").value, sf=$("sf").value;
+    var rows=data.jobs.filter(function(j){
+      var st=status[j.id]||"New";
+      if(j.restricted && !$("restr").checked) return false;
+      if(sf && st!==sf) return false;
+      if(!sf && $("hidepassed").checked && st==="Passed") return false;
+      if(rf && j.role!==rf) return false;
+      if(q && (j.title+" "+j.company).toLowerCase().indexOf(q)<0) return false;
+      return true;
+    });
+    $("list").innerHTML=rows.length?rows.map(card).join(""):'<div class="empty">'+(data.jobs.length?'Nothing matches those filters.':'No roles yet. The first automatic refresh fills this in.')+'</div>';
+    bind($("list"));
+  }
+  function renderPipe(){
+    var counts={};STATUSES.forEach(function(s){counts[s]=0});
+    data.jobs.forEach(function(j){counts[status[j.id]||"New"]++});
+    $("stats").innerHTML=STATUSES.map(function(s){return '<div class="stat"><b>'+counts[s]+'</b>'+s+'</div>'}).join("");
+    var act=data.jobs.filter(function(j){var s=status[j.id]||"New";return s==="Saved"||s==="Applied"||s==="Interview"});
+    $("plist").innerHTML=act.length?act.map(card).join(""):'<div class="empty">Save or apply to a role and it shows up here.</div>';
+    bind($("plist"));
+  }
+  ["q","role","sf","restr","hidepassed"].forEach(function(id){$(id).addEventListener("input",renderList)});
+
+  // fit check, client side
+  $("go").addEventListener("click",function(){
+    var t=" "+$("jd").value.toLowerCase()+" ", score=50, pos=[], neg=[];
+    if(t.trim()===""){return}
+    var P=data.scoring.positive||{}, N=data.scoring.negative||{};
+    Object.keys(P).forEach(function(k){if(t.indexOf(k)>=0){score+=P[k];pos.push(k)}});
+    Object.keys(N).forEach(function(k){if(t.indexOf(k)>=0){score+=N[k];neg.push(k)}});
+    score=Math.max(0,Math.min(100,score));
+    var verdict=score>=65?"Strong fit signals":score>=50?"Mixed, read the details":"Watch for red flags";
+    $("out").classList.remove("hide");
+    $("out").innerHTML='<div class="top"><h3>'+verdict+'</h3><div class="score'+(score<50?' low':'')+'">'+score+'</div></div>'+
+      '<div class="meta">Matched positives</div><div class="chips">'+(pos.length?pos.map(function(w){return '<span class="chip">'+esc(w)+'</span>'}).join(""):'<span class="meta">none</span>')+'</div>'+
+      '<div class="meta">Red flags</div><div class="chips">'+(neg.length?neg.map(function(w){return '<span class="chip flag">'+esc(w)+'</span>'}).join(""):'<span class="meta">none found</span>')+'</div>';
+  });
+
+  fetch("jobs.json?"+Date.now()).then(function(r){return r.json()}).then(function(d){
+    data=d;
+    var roles={};d.jobs.forEach(function(j){roles[j.role]=1});
+    Object.keys(roles).sort().forEach(function(r){var o=document.createElement("option");o.textContent=r;$("role").appendChild(o)});
+    var a=daysAgo(d.updated);
+    $("upd").textContent=d.updated?(d.jobs.length+" roles. Updated "+(a===0?"today":a+" days ago")+" (refreshes automatically)."):"Waiting for the first refresh.";
+    if(d.failed_sources&&d.failed_sources.length){$("warn").innerHTML='<div class="warnbar">Some sources failed on the last run, so their older results are kept: '+esc(d.failed_sources.join("; "))+'</div>'}
+    renderList();renderPipe();
+  }).catch(function(){$("upd").textContent="Could not load jobs.json.";renderList()});
+})();
+</script>
+</body>
+</html>
