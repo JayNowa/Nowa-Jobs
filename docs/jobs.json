@@ -1,8 +1,6 @@
 {
- "updated": "2026-11-04T23:53+00:00",
- "failed_sources": [
-  "wwr: HTTP Error 301: Moved Permanently"
- ],
+ "updated": "2026-11-04T23:56+00:00",
+ "failed_sources": [],
  "scoring": {
   "positive": {
    "async": 5,
@@ -188,6 +186,28 @@
    "snippet": "About Us: YipitData is the leading market research and analytics firm for the disruptive economy and most recently raised $475M from The Carlyle Group at a valuation of over $1B. Every day, our proprietary technology analyzes billions of alternative data points to uncover actiona"
   },
   {
+   "id": "9d4e1e18a2ae",
+   "title": "People Operations Coordinator - Temp to FTE Opportunity",
+   "company": "Salesloft",
+   "url": "https://weworkremotely.com/remote-jobs/salesloft-people-operations-coordinator-temp-to-fte-opportunity",
+   "source": "wwr",
+   "role": "HR generalist",
+   "location": "Anywhere in the World",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-11-02",
+   "first_seen": "2026-11-04",
+   "score": 62,
+   "why": [
+    "fully remote",
+    "mission",
+    "adp",
+    "compliance"
+   ],
+   "flags": [],
+   "snippet": "Headquarters: United States, Remote Job Title: People Operations Coordinator - Temp to FTE Opportunity, 3 month contract Job Location: United States, Remote This is a fully remote opportunity and can be worked from any location in the United States. ABOUT THE COMPANY: Salesloft i"
+  },
+  {
    "id": "ddc6f4200ae7",
    "title": "Senior Manager, Recruiting, Claude Corps",
    "company": "CodePath",
@@ -327,6 +347,26 @@
    ],
    "flags": [],
    "snippet": "1 in 4 people in the US have a treatable mental health condition, but most providers don't accept insurance, making therapy too expensive for most people. Headway\u2019s mission is to fix this by building a new mental healthcare system everyone can access. We started by solving the bi"
+  },
+  {
+   "id": "904f1f824496",
+   "title": "Business Recruiter",
+   "company": "Apollo GraphQL",
+   "url": "https://weworkremotely.com/remote-jobs/apollo-business-recruiter",
+   "source": "wwr",
+   "role": "Recruiting",
+   "location": "Anywhere in the World",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-10-14",
+   "first_seen": "2026-11-04",
+   "score": 56,
+   "why": [
+    "mission",
+    "full-cycle"
+   ],
+   "flags": [],
+   "snippet": "Headquarters: URL: https://www.apollo.io/es About the Role Apollo is hiring a Business Recruiter to own full-cycle recruiting across our G&A, Sales and Marketing organizations . This is a high-ownership role on a lean, high-performing team. You will manage a portfolio of mid and "
   },
   {
    "id": "b9c906cf2f10",
@@ -473,6 +513,28 @@
    "snippet": "Since 2019, Mercury has been rebuilding banking* for the way modern companies work. We combine thoughtful design with strong engineering to offer checking and savings accounts, cards, payments, credit, treasury and the analytics that tie it all together. Everything we build comes"
   },
   {
+   "id": "a529098b9658",
+   "title": "GTM Recruiter",
+   "company": "AssemblyAI",
+   "url": "https://weworkremotely.com/remote-jobs/assemblyai-gtm-recruiter",
+   "source": "wwr",
+   "role": "Recruiting",
+   "location": "Anywhere in the World",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-11-02",
+   "first_seen": "2026-11-04",
+   "score": 53,
+   "why": [
+    "mission",
+    "full-cycle"
+   ],
+   "flags": [
+    "rapidly scaling"
+   ],
+   "snippet": "Headquarters: Remote Why AssemblyAI AssemblyAI builds the best-in-class Voice AI models powering the next generation of voice applications. We have a lab, and we also power our own models in our own proprietary inference environment. Our models serve 500M+ inference calls monthly"
+  },
+  {
    "id": "2617dce41eff",
    "title": "Sr. HR Business Partner",
    "company": "Thumbtack",
@@ -490,6 +552,27 @@
    ],
    "flags": [],
    "snippet": "Thumbtack helps millions of people confidently care for their homes. Thumbtack is the one app you need to take care of and improve your home \u2014 from personalized guidance to AI tools and a best-in-class hiring experience. Every day in every county of the U.S., people turn to Thumb"
+  },
+  {
+   "id": "970d8c166445",
+   "title": "Sr. Technical Recruiter",
+   "company": "AssemblyAI",
+   "url": "https://weworkremotely.com/remote-jobs/assemblyai-sr-technical-recruiter",
+   "source": "wwr",
+   "role": "Recruiting",
+   "location": "Anywhere in the World",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-11-02",
+   "first_seen": "2026-11-04",
+   "score": 50,
+   "why": [
+    "full-cycle"
+   ],
+   "flags": [
+    "rapidly scaling"
+   ],
+   "snippet": "Headquarters: Remote Why AssemblyAI AssemblyAI builds the best-in-class Voice AI models powering the next generation of voice applications. We have a lab, and we also power our own models in our own proprietary inference environment. Our models serve 500M+ inference calls monthly"
   },
   {
    "id": "25c5ae767f77",
