@@ -1,1 +1,533 @@
-{"updated": null, "failed_sources": [], "scoring": {"positive": {}, "negative": {}}, "jobs": []}
+{
+ "updated": "2026-11-04T23:53+00:00",
+ "failed_sources": [
+  "wwr: HTTP Error 301: Moved Permanently"
+ ],
+ "scoring": {
+  "positive": {
+   "async": 5,
+   "asynchronous": 5,
+   "flexible schedule": 8,
+   "flexible hours": 8,
+   "work life balance": 6,
+   "work-life balance": 6,
+   "four day": 8,
+   "4 day": 8,
+   "part time": 3,
+   "part-time": 3,
+   "remote first": 4,
+   "remote-first": 4,
+   "fully remote": 3,
+   "nonprofit": 3,
+   "mission": 3,
+   "adp": 4,
+   "ukg": 4,
+   "ultipro": 4,
+   "workday": 4,
+   "icims": 4,
+   "taleo": 3,
+   "fmla": 4,
+   "shrm": 3,
+   "multistate": 4,
+   "multi-state": 4,
+   "compliance": 2,
+   "full cycle": 3,
+   "full-cycle": 3,
+   "individual contributor": 4
+  },
+  "negative": {
+   "on call": -10,
+   "on-call": -10,
+   "24/7": -10,
+   "fast paced": -4,
+   "fast-paced": -4,
+   "wear many hats": -5,
+   "weekend": -5,
+   "travel up to": -6,
+   "extended hours": -6,
+   "rapidly scaling": -3,
+   "hypergrowth": -5,
+   "other duties as assigned": -1
+  }
+ },
+ "jobs": [
+  {
+   "id": "2f0845d80ef3",
+   "title": "Manager, Sales Recruiting (AMER)",
+   "company": "gitlab",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8922862002",
+   "source": "greenhouse:gitlab",
+   "role": "Recruiting",
+   "location": "Remote, Canada; Remote, United States",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-10-29",
+   "first_seen": "2026-11-04",
+   "score": 66,
+   "why": [
+    "async",
+    "asynchronous",
+    "remote-first",
+    "compliance"
+   ],
+   "flags": [],
+   "snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and m"
+  },
+  {
+   "id": "49afc51698f7",
+   "title": "Recruiter, Sales (AMER)",
+   "company": "gitlab",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8869149002",
+   "source": "greenhouse:gitlab",
+   "role": "Recruiting",
+   "location": "Remote, United States",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-10-29",
+   "first_seen": "2026-11-04",
+   "score": 66,
+   "why": [
+    "remote-first",
+    "mission",
+    "compliance",
+    "full-cycle",
+    "individual contributor"
+   ],
+   "flags": [],
+   "snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and m"
+  },
+  {
+   "id": "50b0909ec497",
+   "title": "Recruiter, R&D",
+   "company": "gitlab",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8869167002",
+   "source": "greenhouse:gitlab",
+   "role": "Recruiting",
+   "location": "Remote Ireland; Remote, Australia; Remote, Canada; Remote, India; Remote, Mexico; Remote, Poland; Remote, United Kingdom; Remote, United States",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-10-28",
+   "first_seen": "2026-11-04",
+   "score": 66,
+   "why": [
+    "remote-first",
+    "mission",
+    "compliance",
+    "full-cycle",
+    "individual contributor"
+   ],
+   "flags": [],
+   "snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and m"
+  },
+  {
+   "id": "2a3850f1e108",
+   "title": "Senior Benefits Manager",
+   "company": "LaunchDarkly",
+   "url": "https://jobicy.com/jobs/158289-senior-benefits-manager",
+   "source": "jobicy",
+   "role": "Leave and benefits",
+   "location": "USA",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-11-01",
+   "first_seen": "2026-11-04",
+   "score": 63,
+   "why": [
+    "workday",
+    "fmla",
+    "shrm",
+    "compliance",
+    "individual contributor"
+   ],
+   "flags": [
+    "fast-paced"
+   ],
+   "snippet": "About the Job: LaunchDarkly is seeking a Senior Benefits Manager to design, run, and continuously improve the health, wellness, and financial benefits programs that support our growing, distributed workforce. You will be the senior subject matter expert on benefits within People "
+  },
+  {
+   "id": "90048a4a6efa",
+   "title": "Manager, HRIS",
+   "company": "hims & hers",
+   "url": "https://jobicy.com/jobs/158034-manager-hris",
+   "source": "jobicy",
+   "role": "HRIS",
+   "location": "USA",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-10-30",
+   "first_seen": "2026-11-04",
+   "score": 63,
+   "why": [
+    "async",
+    "asynchronous",
+    "mission"
+   ],
+   "flags": [],
+   "snippet": "Hims & Hers is the leading health and wellness platform, on a mission to help the world feel great through the power of better health. We are redefining healthcare by putting the customer first and delivering access to care that is affordable, accessible, and personal, from diagn"
+  },
+  {
+   "id": "65bd91a8261c",
+   "title": "Senior Payroll & Benefits Administrator",
+   "company": "YipitData",
+   "url": "https://jobicy.com/jobs/158031-senior-payroll-benefits-administrator",
+   "source": "jobicy",
+   "role": "Leave and benefits",
+   "location": "USA",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-10-30",
+   "first_seen": "2026-11-04",
+   "score": 63,
+   "why": [
+    "fully remote",
+    "adp",
+    "multi-state",
+    "compliance"
+   ],
+   "flags": [],
+   "snippet": "About Us: YipitData is the leading market research and analytics firm for the disruptive economy and most recently raised $475M from The Carlyle Group at a valuation of over $1B. Every day, our proprietary technology analyzes billions of alternative data points to uncover actiona"
+  },
+  {
+   "id": "ddc6f4200ae7",
+   "title": "Senior Manager, Recruiting, Claude Corps",
+   "company": "CodePath",
+   "url": "https://jobicy.com/jobs/158921-senior-manager-recruiting-claude-corps",
+   "source": "jobicy",
+   "role": "Recruiting",
+   "location": "USA",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-11-04",
+   "first_seen": "2026-11-04",
+   "score": 59,
+   "why": [
+    "work-life balance",
+    "nonprofit"
+   ],
+   "flags": [],
+   "snippet": "CodePath is the largest educator of college computer science students in the country. We've trained over 50,000 students from more than 1,000 universities. Our partners include Amazon, Google, and other leading technology companies. After nearly a decade of training technical tal"
+  },
+  {
+   "id": "4e6acf1ac4c4",
+   "title": "People Operations Manager",
+   "company": "Tremendous",
+   "url": "https://jobicy.com/jobs/158863-people-operations-manager-4",
+   "source": "jobicy",
+   "role": "HR generalist",
+   "location": "LATAM, Canada, USA",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-11-04",
+   "first_seen": "2026-11-04",
+   "score": 58,
+   "why": [
+    "fully remote",
+    "nonprofit",
+    "compliance"
+   ],
+   "flags": [],
+   "snippet": "Tremendous is the global platform built for businesses to send thousands of payouts to anyone, anywhere, for free. We're trusted by 20,000 organizations like Atlassian, MIT, and United Way to deliver gift cards and money to millions of recipients worldwide. Our customers (researc"
+  },
+  {
+   "id": "27eacc9bec75",
+   "title": "People Systems, Analytics, and AI Manager",
+   "company": "LaunchDarkly",
+   "url": "https://jobicy.com/jobs/158281-people-systems-analytics-and-ai-manager",
+   "source": "jobicy",
+   "role": "HRIS",
+   "location": "USA",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-11-01",
+   "first_seen": "2026-11-04",
+   "score": 58,
+   "why": [
+    "workday",
+    "individual contributor"
+   ],
+   "flags": [],
+   "snippet": "About the Job: LaunchDarkly is seeking a People Systems, Analytics and AI Manager to be our subject matter expert on HR systems and to turn People data into insights that help business leaders make better decisions. You will build the reports, analytics, and dashboards that tell "
+  },
+  {
+   "id": "d4874c2b53ad",
+   "title": "People Partner Engineering & Product",
+   "company": "Elevenlabs",
+   "url": "https://jobicy.com/jobs/158939-people-partner-engineering-product",
+   "source": "jobicy",
+   "role": "HR generalist",
+   "location": "Europe, USA",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-11-04",
+   "first_seen": "2026-11-04",
+   "score": 56,
+   "why": [
+    "remote-first",
+    "compliance"
+   ],
+   "flags": [],
+   "snippet": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to larg"
+  },
+  {
+   "id": "3bde82577a09",
+   "title": "Employee Relations Partner",
+   "company": "Elevenlabs",
+   "url": "https://jobicy.com/jobs/158934-employee-relations-partner",
+   "source": "jobicy",
+   "role": "HR generalist",
+   "location": "Europe, USA",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-11-04",
+   "first_seen": "2026-11-04",
+   "score": 56,
+   "why": [
+    "remote-first",
+    "compliance"
+   ],
+   "flags": [],
+   "snippet": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to larg"
+  },
+  {
+   "id": "05e8444bfabc",
+   "title": "Recruiter - Sales",
+   "company": "Mercury",
+   "url": "https://jobicy.com/jobs/158681-recruiter-sales",
+   "source": "jobicy",
+   "role": "Recruiting",
+   "location": "Canada, USA",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-11-03",
+   "first_seen": "2026-11-04",
+   "score": 56,
+   "why": [
+    "mission",
+    "full-cycle"
+   ],
+   "flags": [],
+   "snippet": "Our Sales team is often the first group a founder or business owner talks to at Mercury , and the people who help them as their company grows. Who we hire onto that team shapes how customers experience Mercury. We're looking for a Sales Recruiter to help build and scale that team"
+  },
+  {
+   "id": "6c26802b9d35",
+   "title": "Technical Recruiter, Early Career",
+   "company": "Headway.co",
+   "url": "https://jobicy.com/jobs/158275-technical-recruiter-early-career",
+   "source": "jobicy",
+   "role": "Recruiting",
+   "location": "USA",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-11-01",
+   "first_seen": "2026-11-04",
+   "score": 56,
+   "why": [
+    "mission",
+    "full-cycle"
+   ],
+   "flags": [],
+   "snippet": "1 in 4 people in the US have a treatable mental health condition, but most providers don't accept insurance, making therapy too expensive for most people. Headway\u2019s mission is to fix this by building a new mental healthcare system everyone can access. We started by solving the bi"
+  },
+  {
+   "id": "b9c906cf2f10",
+   "title": "Recruiting Systems Administrator",
+   "company": "Quince",
+   "url": "https://jobicy.com/jobs/158873-recruiting-systems-administrator",
+   "source": "jobicy",
+   "role": "Recruiting",
+   "location": "USA",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-11-04",
+   "first_seen": "2026-11-04",
+   "score": 55,
+   "why": [
+    "mission",
+    "compliance"
+   ],
+   "flags": [],
+   "snippet": "ABOUT QUINCE Quince is a destination for builders, creators, innovators, and operators who want to come together and challenge the status quo. Our mission is simple: make really high quality essentials for really low prices, fairly and sustainably. We deliver on that mission thro"
+  },
+  {
+   "id": "699df05eec17",
+   "title": "Senior HR Business Partner, Claude Corps",
+   "company": "CodePath",
+   "url": "https://jobicy.com/jobs/158909-senior-hr-business-partner-claude-corps",
+   "source": "jobicy",
+   "role": "HR generalist",
+   "location": "USA",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-11-04",
+   "first_seen": "2026-11-04",
+   "score": 53,
+   "why": [
+    "work-life balance",
+    "nonprofit",
+    "multistate"
+   ],
+   "flags": [
+    "on call"
+   ],
+   "snippet": "CodePath is the largest educator of college computer science students in the country. We've trained over 50,000 students from more than 1,000 universities. Our partners include Amazon, Google, and other leading technology companies. After nearly a decade of training technical tal"
+  },
+  {
+   "id": "b1b5771f3b5d",
+   "title": "Senior Recruiting Partner (Contract)",
+   "company": "ClassDojo",
+   "url": "https://jobicy.com/jobs/158894-senior-recruiting-partner-contract",
+   "source": "jobicy",
+   "role": "Recruiting",
+   "location": "USA",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-11-04",
+   "first_seen": "2026-11-04",
+   "score": 53,
+   "why": [
+    "full-cycle"
+   ],
+   "flags": [],
+   "snippet": "ClassDojo 's goal is to give every child on Earth an education they love. We started by building a powerful network for communication. ClassDojo\u2019s flagship app is the #1 communication app connecting K-12 teachers, children, and families globally. Teachers use it to share what\u2019s h"
+  },
+  {
+   "id": "6092bcbb3591",
+   "title": "Sales Recruiter - US-Based",
+   "company": "Toptal",
+   "url": "https://jobicy.com/jobs/158829-sales-recruiter-us-based",
+   "source": "jobicy",
+   "role": "Recruiting",
+   "location": "Canada, USA",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-11-03",
+   "first_seen": "2026-11-04",
+   "score": 53,
+   "why": [
+    "fully remote",
+    "individual contributor"
+   ],
+   "flags": [
+    "fast-paced"
+   ],
+   "snippet": "About Toptal Toptal is a global network of top talent in business, design, and technology that enables companies to scale their teams, on-demand. With $200+ million in annual revenue and team members based around the globe , Toptal is the world\u2019s largest fully remote workforce . "
+  },
+  {
+   "id": "efd5159c4606",
+   "title": "Sales Recruiter",
+   "company": "Toptal",
+   "url": "https://jobicy.com/jobs/158824-sales-recruiter-2",
+   "source": "jobicy",
+   "role": "Recruiting",
+   "location": "Canada, USA",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-11-03",
+   "first_seen": "2026-11-04",
+   "score": 53,
+   "why": [
+    "fully remote",
+    "individual contributor"
+   ],
+   "flags": [
+    "fast-paced"
+   ],
+   "snippet": "About Toptal Toptal is a global network of top talent in business, design, and technology that enables companies to scale their teams, on-demand. With $200+ million in annual revenue and team members based around the globe , Toptal is the world\u2019s largest fully remote workforce . "
+  },
+  {
+   "id": "5630daa8dfe4",
+   "title": "Senior Tech Recruiter",
+   "company": "Socure",
+   "url": "https://jobicy.com/jobs/158767-senior-tech-recruiter",
+   "source": "jobicy",
+   "role": "Recruiting",
+   "location": "USA",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-11-03",
+   "first_seen": "2026-11-04",
+   "score": 53,
+   "why": [
+    "mission"
+   ],
+   "flags": [],
+   "snippet": "Why Socure ? Socure is building the identity trust infrastructure for the digital economy \u2014 verifying 100% of good identities in real time and stopping fraud before it starts. The mission is big, the problems are complex, and the impact is felt by businesses, governments, and mil"
+  },
+  {
+   "id": "626159c56bcf",
+   "title": "Recruiter - Technical",
+   "company": "Mercury",
+   "url": "https://jobicy.com/jobs/158684-recruiter-technical",
+   "source": "jobicy",
+   "role": "Recruiting",
+   "location": "Canada, USA",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-11-03",
+   "first_seen": "2026-11-04",
+   "score": 53,
+   "why": [
+    "full-cycle"
+   ],
+   "flags": [],
+   "snippet": "Since 2019, Mercury has been rebuilding banking* for the way modern companies work. We combine thoughtful design with strong engineering to offer checking and savings accounts, cards, payments, credit, treasury and the analytics that tie it all together. Everything we build comes"
+  },
+  {
+   "id": "2617dce41eff",
+   "title": "Sr. HR Business Partner",
+   "company": "Thumbtack",
+   "url": "https://jobicy.com/jobs/157809-sr-hr-business-partner",
+   "source": "jobicy",
+   "role": "HR generalist",
+   "location": "USA",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-10-29",
+   "first_seen": "2026-11-04",
+   "score": 52,
+   "why": [
+    "compliance"
+   ],
+   "flags": [],
+   "snippet": "Thumbtack helps millions of people confidently care for their homes. Thumbtack is the one app you need to take care of and improve your home \u2014 from personalized guidance to AI tools and a best-in-class hiring experience. Every day in every county of the U.S., people turn to Thumb"
+  },
+  {
+   "id": "25c5ae767f77",
+   "title": "People Partner",
+   "company": "Customer.io",
+   "url": "https://jobicy.com/jobs/158965-people-partner-3",
+   "source": "jobicy",
+   "role": "HR generalist",
+   "location": "LATAM, Canada, USA",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-11-04",
+   "first_seen": "2026-11-04",
+   "score": 46,
+   "why": [],
+   "flags": [
+    "fast-paced"
+   ],
+   "snippet": "People Partner Hello, I\u2019m Danielle, Senior Director, People Experience at Customer.io ! We're expanding our people team in the United States and seeking a People Partner to support our global team in a fast-paced, innovative environment. This is a great fit for an HR professional"
+  },
+  {
+   "id": "a5ab47ddfe0c",
+   "title": "HR Generalist",
+   "company": "Canonical",
+   "url": "https://jobicy.com/jobs/158301-hr-generalist",
+   "source": "jobicy",
+   "role": "HR generalist",
+   "location": "EMEA, LATAM, Canada, USA",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-11-01",
+   "first_seen": "2026-11-04",
+   "score": 44,
+   "why": [],
+   "flags": [
+    "travel up to"
+   ],
+   "snippet": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation and IoT. "
+  }
+ ]
+}
