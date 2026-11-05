@@ -11,10 +11,13 @@
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 system-ui,-apple-system,Segoe UI,sans-serif}
 .wrap{max-width:780px;margin:0 auto;padding:16px}
 h1{font-size:22px;margin:4px 0 2px}
+h2{font-size:17px;margin:18px 0 6px}
 .sub{color:var(--mute);font-size:14px;margin-bottom:10px}
 .tabs{display:flex;gap:6px;margin:10px 0;flex-wrap:wrap}
 .tab,.btn{font:inherit;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:8px 14px;border-radius:999px;cursor:pointer}
 .tab[aria-selected=true],.btn.pri{background:var(--acc);color:#fff;border-color:var(--acc)}
+.btn.sm{padding:4px 10px;font-size:14px}
+.btn:disabled{opacity:.5}
 .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin:10px 0}
 .top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
 .card h3{margin:0 0 2px;font-size:17px}
@@ -25,9 +28,11 @@ h1{font-size:22px;margin:4px 0 2px}
 .chip{background:var(--accbg);color:var(--acc);border-radius:6px;padding:2px 8px;font-size:12px}
 .chip.flag{background:var(--warnbg);color:var(--warn)}
 .chip.new{background:var(--acc);color:#fff}
+.chip.rm{cursor:pointer;font-size:13px;padding:4px 9px}
 .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 select,input,textarea{font:inherit;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px}
-input[type=search]{flex:1;min-width:140px}
+input[type=search],input.grow{flex:1;min-width:140px}
+input.num{width:70px}
 textarea{width:100%;min-height:140px;resize:vertical}
 a{color:var(--acc)}
 .empty{color:var(--mute);text-align:center;padding:28px 8px}
@@ -35,8 +40,28 @@ a{color:var(--acc)}
 .stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px;text-align:center}
 .stat b{display:block;font-size:24px}
 .warnbar{background:var(--warnbg);color:var(--warn);border-radius:8px;padding:8px 10px;font-size:13px;margin:8px 0}
+.okbar{background:var(--accbg);color:var(--acc);border-radius:8px;padding:8px 10px;font-size:13px;margin:8px 0}
 label.ck{font-size:14px;color:var(--mute);display:flex;gap:6px;align-items:center}
+label.lb{font-size:14px;color:var(--mute);display:block;margin:10px 0 4px}
 .hide{display:none}
+.wrow{display:flex;gap:8px;align-items:center;margin:4px 0}
+.wrow span.w{flex:1}
+.resume{background:#fff;color:#111;padding:26px;border-radius:8px;font-family:Georgia,"Times New Roman",serif;font-size:14px;line-height:1.4;border:1px solid var(--line)}
+.resume h1{font-size:24px;margin:0;color:#111}
+.resume h2{font-size:13px;letter-spacing:.08em;text-transform:uppercase;border-bottom:1px solid #999;padding-bottom:2px;margin:14px 0 6px;color:#111}
+.resume .rc{color:#444;font-size:13px}
+.resume .rh{font-size:16px;margin-top:4px}
+.resume .re{margin-top:8px}
+.resume .rd{float:right;color:#444;font-size:13px}
+.resume p{margin:3px 0}
+.resume ul{margin:4px 0 4px 20px;padding:0}
+.resume li{margin:2px 0}
+@media print{
+  body{background:#fff}
+  body *{visibility:hidden}
+  #resumeOut,#resumeOut *{visibility:visible}
+  #resumeOut{position:absolute;left:0;top:0;width:100%;border:0;padding:0}
+}
 </style>
 </head>
 <body>
@@ -46,7 +71,9 @@ label.ck{font-size:14px;color:var(--mute);display:flex;gap:6px;align-items:cente
   <div class="tabs" role="tablist">
     <button class="tab" data-t="roles" aria-selected="true">Open roles</button>
     <button class="tab" data-t="pipe" aria-selected="false">Pipeline</button>
+    <button class="tab" data-t="resume" aria-selected="false">Resume</button>
     <button class="tab" data-t="fit" aria-selected="false">Fit check</button>
+    <button class="tab" data-t="settings" aria-selected="false">Settings</button>
   </div>
 
   <section id="roles">
@@ -68,6 +95,53 @@ label.ck{font-size:14px;color:var(--mute);display:flex;gap:6px;align-items:cente
     <div id="plist"></div>
   </section>
 
+  <section id="resume" class="hide">
+    <div class="card">
+      <h3>1. Your master resume</h3>
+      <p class="meta" style="margin-top:2px">Paste your full resume once, with everything you have done. It is saved only in this browser, never sent anywhere. Each time you tailor, it picks and orders your own bullets for the job and never adds anything new.</p>
+      <textarea id="master" style="min-height:220px" placeholder="Pat Example
+pat@example.com | 555 0100 | City, ST | linkedin.com/in/pat
+# SUMMARY
+Two or three sentences about you.
+# SKILLS
+Skill one, skill two, skill three
+# EXPERIENCE
+Job Title | Company | City, ST | 2019 to 2024
+- Bullet about something you did
+- Another bullet
+# EDUCATION
+Degree, School
+# CERTIFICATIONS
+Certification, year"></textarea>
+      <div class="meta" id="mastermsg">Format: name, then a contact line, then sections that start with # (SUMMARY, SKILLS, EXPERIENCE, EDUCATION, CERTIFICATIONS). Bullets start with a dash.</div>
+    </div>
+    <div class="card">
+      <h3>2. The job</h3>
+      <div class="row">
+        <select id="rpick" class="grow" style="flex:1"><option value="">Pick a listing from your board</option></select>
+      </div>
+      <label class="lb" for="rtitle">Job title</label>
+      <input id="rtitle" class="grow" style="width:100%">
+      <label class="lb" for="rcomp">Company</label>
+      <input id="rcomp" class="grow" style="width:100%">
+      <label class="lb" for="rtext">Job description (paste the full posting for the best result)</label>
+      <textarea id="rtext"></textarea>
+      <div class="row" style="margin-top:10px">
+        <button class="btn pri" id="rgen">Generate tailored resume</button>
+      </div>
+      <div id="rmsg" class="meta" style="margin-top:6px"></div>
+    </div>
+    <div id="rnotes"></div>
+    <div class="card hide" id="rresult">
+      <div class="row" style="margin-bottom:10px">
+        <button class="btn" id="rprint">Print or save as PDF</button>
+        <button class="btn" id="rcopy">Copy text</button>
+        <button class="btn" id="rprompt">Copy Claude prompt</button>
+      </div>
+      <div class="resume" id="resumeOut"></div>
+    </div>
+  </section>
+
   <section id="fit" class="hide">
     <div class="card">
       <p class="meta" style="margin-top:0">Paste any job description. This scores it with the same rules as the list: flexibility and fit signals add points, on call and crisis style language subtracts them. It runs in your browser and nothing is sent anywhere.</p>
@@ -76,25 +150,41 @@ label.ck{font-size:14px;color:var(--mute);display:flex;gap:6px;align-items:cente
     </div>
     <div class="card hide" id="out"></div>
   </section>
+
+  <section id="settings" class="hide">
+    <div class="card">
+      <h3>Connect to GitHub</h3>
+      <p class="meta" style="margin-top:2px">Needed so changes here can update the search. Create a fine grained token at <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">github.com/settings/personal-access-tokens/new</a>. Limit it to this one repository, with Contents and Actions both set to Read and write. It is saved only in this browser.</p>
+      <label class="lb" for="repo">Repository</label>
+      <input id="repo" class="grow" style="width:100%" value="JayNowa/Nowa-Jobs">
+      <label class="lb" for="tok">Token</label>
+      <input id="tok" type="password" class="grow" style="width:100%" placeholder="github_pat_...">
+      <div class="row" style="margin-top:10px"><button class="btn" id="savetok">Save connection</button><span class="meta" id="tokmsg"></span></div>
+    </div>
+    <div id="cfgbox"><div class="empty">Loading settings...</div></div>
+  </section>
 </div>
 
+<script src="resume.js"></script>
 <script>
 (function(){
   var STATUSES=["New","Saved","Applied","Interview","Passed"];
-  var data={jobs:[],scoring:{positive:{},negative:{}}}, status={};
+  var data={jobs:[],scoring:{positive:{},negative:{}}}, status={}, cfg=null, dirty=false;
   var $=function(id){return document.getElementById(id)};
   function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+  function lsGet(k){try{return localStorage.getItem(k)}catch(e){return null}}
+  function lsSet(k,v){try{localStorage.setItem(k,v)}catch(e){}}
 
-  try{status=JSON.parse(localStorage.getItem("jr-status")||"{}")}catch(e){status={}}
-  function save(){try{localStorage.setItem("jr-status",JSON.stringify(status))}catch(e){}}
+  try{status=JSON.parse(lsGet("jr-status")||"{}")}catch(e){status={}}
+  function save(){lsSet("jr-status",JSON.stringify(status))}
 
-  document.querySelectorAll(".tab").forEach(function(b){
-    b.addEventListener("click",function(){
-      document.querySelectorAll(".tab").forEach(function(t){t.setAttribute("aria-selected",t===b?"true":"false")});
-      ["roles","pipe","fit"].forEach(function(id){$(id).classList.toggle("hide",id!==b.dataset.t)});
-      if(b.dataset.t==="pipe") renderPipe();
-    });
-  });
+  function showTab(t){
+    document.querySelectorAll(".tab").forEach(function(b){b.setAttribute("aria-selected",b.dataset.t===t?"true":"false")});
+    ["roles","pipe","resume","fit","settings"].forEach(function(id){$(id).classList.toggle("hide",id!==t)});
+    if(t==="pipe") renderPipe();
+    window.scrollTo(0,0);
+  }
+  document.querySelectorAll(".tab").forEach(function(b){b.addEventListener("click",function(){showTab(b.dataset.t)})});
 
   function daysAgo(d){
     if(!d) return null;
@@ -119,11 +209,15 @@ label.ck{font-size:14px;color:var(--mute);display:flex;gap:6px;align-items:cente
       '<div class="chips">'+chips.join("")+'</div>'+
       (j.snippet?'<div class="meta">'+esc(j.snippet)+'...</div>':'')+
       '<div class="row" style="margin-top:10px"><a href="'+esc(j.url)+'" target="_blank" rel="noopener">Open posting</a>'+
-      '<select class="stsel" data-id="'+esc(j.id)+'">'+opts+'</select></div></div>';
+      '<select class="stsel" data-id="'+esc(j.id)+'">'+opts+'</select>'+
+      '<button class="btn sm tailor" data-id="'+esc(j.id)+'">Tailor resume</button></div></div>';
   }
   function bind(root){
     root.querySelectorAll(".stsel").forEach(function(s){
       s.addEventListener("change",function(){status[s.dataset.id]=s.value;save();renderList();renderPipe();});
+    });
+    root.querySelectorAll(".tailor").forEach(function(b){
+      b.addEventListener("click",function(){loadJobIntoResume(b.dataset.id);showTab("resume")});
     });
   }
 
@@ -151,10 +245,10 @@ label.ck{font-size:14px;color:var(--mute);display:flex;gap:6px;align-items:cente
   }
   ["q","role","sf","restr","hidepassed"].forEach(function(id){$(id).addEventListener("input",renderList)});
 
-  // fit check, client side
+  /* ---------- fit check ---------- */
   $("go").addEventListener("click",function(){
-    var t=" "+$("jd").value.toLowerCase()+" ", score=50, pos=[], neg=[];
-    if(t.trim()===""){return}
+    var raw=$("jd").value, t=" "+raw.toLowerCase()+" ", score=50, pos=[], neg=[];
+    if(t.trim()==="") return;
     var P=data.scoring.positive||{}, N=data.scoring.negative||{};
     Object.keys(P).forEach(function(k){if(t.indexOf(k)>=0){score+=P[k];pos.push(k)}});
     Object.keys(N).forEach(function(k){if(t.indexOf(k)>=0){score+=N[k];neg.push(k)}});
@@ -163,9 +257,198 @@ label.ck{font-size:14px;color:var(--mute);display:flex;gap:6px;align-items:cente
     $("out").classList.remove("hide");
     $("out").innerHTML='<div class="top"><h3>'+verdict+'</h3><div class="score'+(score<50?' low':'')+'">'+score+'</div></div>'+
       '<div class="meta">Matched positives</div><div class="chips">'+(pos.length?pos.map(function(w){return '<span class="chip">'+esc(w)+'</span>'}).join(""):'<span class="meta">none</span>')+'</div>'+
-      '<div class="meta">Red flags</div><div class="chips">'+(neg.length?neg.map(function(w){return '<span class="chip flag">'+esc(w)+'</span>'}).join(""):'<span class="meta">none found</span>')+'</div>';
+      '<div class="meta">Red flags</div><div class="chips">'+(neg.length?neg.map(function(w){return '<span class="chip flag">'+esc(w)+'</span>'}).join(""):'<span class="meta">none found</span>')+'</div>'+
+      '<button class="btn pri" id="fit2res">Tailor my resume to this</button>';
+    $("fit2res").addEventListener("click",function(){
+      $("rtitle").value="";$("rcomp").value="";$("rtext").value=raw;$("rpick").value="";showTab("resume");
+    });
   });
 
+  /* ---------- resume ---------- */
+  var lastOut=null, lastJob=null;
+  $("master").value=lsGet("jr-master")||"";
+  $("master").addEventListener("input",function(){lsSet("jr-master",$("master").value);$("mastermsg").textContent="Saved in this browser."});
+
+  function fillPicker(){
+    var p=$("rpick");
+    while(p.options.length>1) p.remove(1);
+    data.jobs.slice(0,150).forEach(function(j){
+      var o=document.createElement("option");o.value=j.id;o.textContent=j.title+" at "+j.company;p.appendChild(o);
+    });
+  }
+  function loadJobIntoResume(id){
+    var j=data.jobs.filter(function(x){return x.id===id})[0];
+    if(!j) return;
+    $("rtitle").value=j.title;$("rcomp").value=j.company;$("rtext").value=j.desc||j.snippet||"";
+    $("rpick").value=id;
+    $("rmsg").textContent=(j.desc&&j.desc.length>300)?"Loaded the listing text. Paste the full posting from the employer's page for the best match.":"Only a short excerpt was available, so paste the full posting from the employer's page for the best match.";
+  }
+  $("rpick").addEventListener("change",function(){if($("rpick").value) loadJobIntoResume($("rpick").value)});
+
+  $("rgen").addEventListener("click",function(){
+    var master=$("master").value.trim();
+    if(!master){$("rmsg").textContent="Paste your master resume in step 1 first.";return}
+    var job={title:$("rtitle").value.trim(),company:$("rcomp").value.trim(),text:$("rtext").value};
+    if(!job.title&&!job.text.trim()){$("rmsg").textContent="Add a job title or paste the job description.";return}
+    var res=Resume.parseResume(master);
+    if(!res.exp.length){$("rmsg").textContent="I could not find an EXPERIENCE section. Check the format notes in step 1.";return}
+    lastOut=Resume.tailor(res,job,cfg||{});lastJob=job;
+    $("resumeOut").innerHTML=Resume.renderHtml(lastOut);
+    $("rresult").classList.remove("hide");
+    var n=[];
+    n.push('<div class="okbar">Reordered your bullets so the ones matching this job come first'+(lastOut.matchedSkills.length?', and moved '+lastOut.matchedSkills.length+' matching skills to the front':'')+'. Nothing was added or rewritten.</div>');
+    if(lastOut.missing.length) n.push('<div class="warnbar">Words the posting uses that your resume does not. Add them to your master resume only where they are true for you: '+lastOut.missing.map(esc).join(", ")+'</div>');
+    $("rnotes").innerHTML=n.join("");
+    $("rmsg").textContent="";
+    $("rresult").scrollIntoView({behavior:"smooth"});
+  });
+  function copyText(t,btn,label){
+    try{navigator.clipboard.writeText(t).then(function(){btn.textContent="Copied";setTimeout(function(){btn.textContent=label},1500)},function(){btn.textContent="Copy failed"})}catch(e){btn.textContent="Copy failed"}
+  }
+  $("rprint").addEventListener("click",function(){window.print()});
+  $("rcopy").addEventListener("click",function(){if(lastOut)copyText(Resume.renderText(lastOut),$("rcopy"),"Copy text")});
+  $("rprompt").addEventListener("click",function(){if(lastJob)copyText(Resume.buildPrompt($("master").value,lastJob),$("rprompt"),"Copy Claude prompt")});
+
+  /* ---------- settings ---------- */
+  $("tok").value=lsGet("jr-token")||"";
+  $("repo").value=lsGet("jr-repo")||$("repo").value;
+  $("savetok").addEventListener("click",function(){
+    lsSet("jr-token",$("tok").value.trim());lsSet("jr-repo",$("repo").value.trim());
+    $("tokmsg").textContent="Saved in this browser.";
+  });
+
+  function markDirty(){dirty=true;var m=$("setmsg");if(m){m.className="warnbar";m.textContent="Unsaved changes. Press Save and refresh when you are done."}}
+  function chipEditor(arr,placeholder){
+    var box=document.createElement("div");
+    var wrap=document.createElement("div");wrap.className="chips";
+    arr.forEach(function(w,i){
+      var c=document.createElement("span");c.className="chip rm";c.textContent=w+" ×";c.title="Remove";
+      c.addEventListener("click",function(){arr.splice(i,1);markDirty();renderSettings()});
+      wrap.appendChild(c);
+    });
+    box.appendChild(wrap);
+    var row=document.createElement("div");row.className="row";
+    var inp=document.createElement("input");inp.className="grow";inp.placeholder=placeholder;
+    var b=document.createElement("button");b.className="btn sm";b.textContent="Add";
+    function add(){var v=inp.value.trim().toLowerCase();if(v&&arr.indexOf(v)<0){arr.push(v);markDirty();renderSettings()}}
+    b.addEventListener("click",add);
+    inp.addEventListener("keydown",function(e){if(e.key==="Enter"){e.preventDefault();add()}});
+    row.appendChild(inp);row.appendChild(b);box.appendChild(row);
+    return box;
+  }
+  function weightEditor(map,placeholder){
+    var box=document.createElement("div");
+    Object.keys(map).forEach(function(k){
+      var r=document.createElement("div");r.className="wrow";
+      var s=document.createElement("span");s.className="w";s.textContent=k;
+      var n=document.createElement("input");n.type="number";n.className="num";n.value=map[k];
+      n.addEventListener("change",function(){var v=parseInt(n.value,10);if(!isNaN(v)){map[k]=v;markDirty()}});
+      var x=document.createElement("button");x.className="btn sm";x.textContent="Remove";
+      x.addEventListener("click",function(){delete map[k];markDirty();renderSettings()});
+      r.appendChild(s);r.appendChild(n);r.appendChild(x);box.appendChild(r);
+    });
+    var row=document.createElement("div");row.className="row";row.style.marginTop="8px";
+    var inp=document.createElement("input");inp.className="grow";inp.placeholder=placeholder;
+    var wn=document.createElement("input");wn.type="number";wn.className="num";wn.value=placeholder.indexOf("bad")>=0?-5:5;
+    var b=document.createElement("button");b.className="btn sm";b.textContent="Add";
+    b.addEventListener("click",function(){
+      var v=inp.value.trim().toLowerCase(),w=parseInt(wn.value,10);
+      if(v&&!isNaN(w)){map[v]=w;markDirty();renderSettings()}
+    });
+    row.appendChild(inp);row.appendChild(wn);row.appendChild(b);box.appendChild(row);
+    return box;
+  }
+  function section(title,help,node){
+    var d=document.createElement("div");d.className="card";
+    var h=document.createElement("h3");h.textContent=title;d.appendChild(h);
+    if(help){var p=document.createElement("p");p.className="meta";p.style.margin="2px 0 8px";p.textContent=help;d.appendChild(p)}
+    d.appendChild(node);return d;
+  }
+  function renderSettings(){
+    var box=$("cfgbox");box.innerHTML="";
+    if(!cfg){box.innerHTML='<div class="empty">Could not load settings.</div>';return}
+    var msg=document.createElement("div");msg.id="setmsg";
+    if(dirty){msg.className="warnbar";msg.textContent="Unsaved changes. Press Save and refresh when you are done."}
+    box.appendChild(msg);
+
+    Object.keys(cfg.roles).forEach(function(g){
+      var wrap=document.createElement("div");
+      wrap.appendChild(chipEditor(cfg.roles[g],"Add a job title word or phrase"));
+      var rm=document.createElement("button");rm.className="btn sm";rm.style.marginTop="8px";rm.textContent="Remove this group";
+      rm.addEventListener("click",function(){delete cfg.roles[g];markDirty();renderSettings()});
+      wrap.appendChild(rm);
+      box.appendChild(section("Job titles to find: "+g,"A job is kept when its title contains one of these. A word like recruit also finds Recruiter and Recruiting.",wrap));
+    });
+    var ng=document.createElement("div");ng.className="row";
+    var gi=document.createElement("input");gi.className="grow";gi.placeholder="New group name, for example Payroll";
+    var gb=document.createElement("button");gb.className="btn sm";gb.textContent="Add group";
+    gb.addEventListener("click",function(){var v=gi.value.trim();if(v&&!cfg.roles[v]){cfg.roles[v]=[];markDirty();renderSettings()}});
+    ng.appendChild(gi);ng.appendChild(gb);
+    box.appendChild(section("Add a new group of job titles","Use this to search a whole new type of job.",ng));
+
+    box.appendChild(section("Titles to skip","Jobs whose title contains one of these whole words are dropped.",chipEditor(cfg.exclude_titles,"Add a word to exclude, for example senior")));
+    box.appendChild(section("Good signs in the description","Words that add to a job's score. Higher numbers count more.",weightEditor(cfg.positive_terms,"Add a good sign, for example four day week")));
+    box.appendChild(section("Red flags in the description","Words that lower a score. Use negative numbers.",weightEditor(cfg.negative_terms,"Add a bad sign, for example travel required")));
+
+    var bd=document.createElement("div");
+    [["greenhouse","Greenhouse"],["lever","Lever"],["ashby","Ashby"]].forEach(function(p){
+      var l=document.createElement("label");l.className="lb";l.textContent=p[1]+" company names";bd.appendChild(l);
+      bd.appendChild(chipEditor(cfg.boards[p[0]],"Company name from its job page address"));
+    });
+    box.appendChild(section("Employers to watch","These are companies' own job boards, the freshest source. Use the name in the job page address, like boards.greenhouse.io/NAME, jobs.lever.co/NAME or jobs.ashbyhq.com/NAME.",bd));
+
+    var nr=document.createElement("div");nr.className="row";
+    var ni=document.createElement("input");ni.type="number";ni.className="num";ni.value=cfg.notify_min_score;
+    ni.addEventListener("change",function(){var v=parseInt(ni.value,10);if(!isNaN(v)){cfg.notify_min_score=v;markDirty()}});
+    var ai=document.createElement("input");ai.type="number";ai.className="num";ai.value=cfg.max_age_days;
+    ai.addEventListener("change",function(){var v=parseInt(ai.value,10);if(!isNaN(v)){cfg.max_age_days=v;markDirty()}});
+    nr.innerHTML='<span class="meta">Alert me at score</span>';nr.appendChild(ni);
+    var sp=document.createElement("span");sp.className="meta";sp.textContent="or higher. Hide jobs older than";nr.appendChild(sp);nr.appendChild(ai);
+    var sp2=document.createElement("span");sp2.className="meta";sp2.textContent="days.";nr.appendChild(sp2);
+    box.appendChild(section("Alerts and age",null,nr));
+
+    var act=document.createElement("div");act.className="row";
+    var sb=document.createElement("button");sb.className="btn pri";sb.id="savecfg";sb.textContent="Save and refresh jobs";
+    sb.addEventListener("click",saveConfig);
+    var rb=document.createElement("button");rb.className="btn";rb.textContent="Discard changes";
+    rb.addEventListener("click",function(){dirty=false;loadConfig()});
+    act.appendChild(sb);act.appendChild(rb);box.appendChild(act);
+    var st=document.createElement("div");st.id="savemsg";st.className="meta";st.style.marginTop="8px";box.appendChild(st);
+  }
+
+  function b64(str){return btoa(unescape(encodeURIComponent(str)))}
+  async function saveConfig(){
+    var tok=lsGet("jr-token"), repo=(lsGet("jr-repo")||$("repo").value).trim(), m=$("savemsg");
+    if(!tok){m.textContent="Add and save your GitHub token above first.";return}
+    var btn=$("savecfg");btn.disabled=true;m.textContent="Saving...";
+    var h={"Authorization":"Bearer "+tok,"Accept":"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28"};
+    var url="https://api.github.com/repos/"+repo+"/contents/docs/config.json";
+    try{
+      var cur=await fetch(url+"?ref=main",{headers:h});
+      if(cur.status===401||cur.status===403){throw new Error("GitHub rejected the token. Check it has Contents read and write for this repository.")}
+      if(!cur.ok){throw new Error("Could not read the repository ("+cur.status+"). Check the repository name.")}
+      var sha=(await cur.json()).sha;
+      var put=await fetch(url,{method:"PUT",headers:h,body:JSON.stringify({message:"Update job search settings",content:b64(JSON.stringify(cfg,null,2)+"\n"),sha:sha,branch:"main"})});
+      if(!put.ok){throw new Error("Saving failed ("+put.status+"). Check the token has Contents read and write.")}
+      var run=await fetch("https://api.github.com/repos/"+repo+"/actions/workflows/refresh.yml/dispatches",{method:"POST",headers:h,body:JSON.stringify({ref:"main"})});
+      dirty=false;
+      var ok=document.getElementById("setmsg");if(ok){ok.className="okbar";ok.textContent="Settings saved."}
+      m.textContent=run.ok?"Saved. A refresh is running now, and new results appear in about two minutes. Reload then.":"Saved, but I could not start the refresh (check the token has Actions read and write). It will run on its next schedule.";
+    }catch(e){
+      m.textContent=e.message||"Something went wrong.";
+    }finally{btn.disabled=false}
+  }
+
+  function loadConfig(){
+    return fetch("config.json?"+Date.now()).then(function(r){return r.json()}).then(function(c){
+      c.roles=c.roles||{};c.exclude_titles=c.exclude_titles||[];c.positive_terms=c.positive_terms||{};c.negative_terms=c.negative_terms||{};
+      c.boards=c.boards||{};["greenhouse","lever","ashby"].forEach(function(k){c.boards[k]=c.boards[k]||[]});
+      cfg=c;renderSettings();
+    }).catch(function(){cfg=null;renderSettings()});
+  }
+
+  /* ---------- load ---------- */
+  loadConfig();
   fetch("jobs.json?"+Date.now()).then(function(r){return r.json()}).then(function(d){
     data=d;
     var roles={};d.jobs.forEach(function(j){roles[j.role]=1});
@@ -173,7 +456,7 @@ label.ck{font-size:14px;color:var(--mute);display:flex;gap:6px;align-items:cente
     var a=daysAgo(d.updated);
     $("upd").textContent=d.updated?(d.jobs.length+" roles. Updated "+(a===0?"today":a+" days ago")+" (refreshes automatically)."):"Waiting for the first refresh.";
     if(d.failed_sources&&d.failed_sources.length){$("warn").innerHTML='<div class="warnbar">Some sources failed on the last run, so their older results are kept: '+esc(d.failed_sources.join("; "))+'</div>'}
-    renderList();renderPipe();
+    fillPicker();renderList();renderPipe();
   }).catch(function(){$("upd").textContent="Could not load jobs.json.";renderList()});
 })();
 </script>

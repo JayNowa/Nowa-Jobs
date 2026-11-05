@@ -7,7 +7,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scraper"))
 import scrape  # noqa: E402
 
-CFG = json.loads((ROOT / "config.json").read_text())
+CFG = json.loads((ROOT / "tests" / "fixture_config.json").read_text())
 J = scrape.make_job
 
 
@@ -25,6 +25,7 @@ def fixtures():
             J("greenhouse:foo", "HR Generalist", "OnsiteCo", "https://x/7", "Chicago, IL", recent, "", "x", False),
             J("greenhouse:foo", "HR Generalist", "RemoteCo", "https://x/8", "Remote - US", recent, "", "x", False),
             J("remotive", "Software Engineer", "Acme", "https://x/9", "USA", recent, "", "x", True),
+            J("remotive", "International Recruiter", "Intl", "https://x/10", "USA", recent, "", "x", True),
         ]),
         ("b", lambda: (_ for _ in ()).throw(RuntimeError("boom"))),
     ]
@@ -36,7 +37,7 @@ class T(unittest.TestCase):
         self.by = {j["url"]: j for j in self.res["jobs"]}
 
     def test_kept_and_dropped(self):
-        self.assertEqual(set(self.by), {"https://x/1", "https://x/4", "https://x/5", "https://x/8"})
+        self.assertEqual(set(self.by), {"https://x/1", "https://x/4", "https://x/5", "https://x/8", "https://x/10"})
 
     def test_restricted_flag(self):
         self.assertTrue(self.by["https://x/4"]["restricted"])

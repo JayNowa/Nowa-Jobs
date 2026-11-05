@@ -24,18 +24,29 @@ The Action still does the refreshing.
 
 ## Make it yours
 
-Edit `config.json`:
+Open the **Settings** tab on the site. You can add or remove:
 
-- `roles`: title patterns per role group. Add or remove groups.
-- `boards`: employer career boards to watch. Add the company slug from its job
-  page URL, for example `boards.greenhouse.io/SLUG`, `jobs.lever.co/SLUG`, or
-  `jobs.ashbyhq.com/SLUG`. This is the freshest source because it is the
-  employer's own list. A wrong slug just fails quietly and shows a warning.
-- `positive_terms` and `negative_terms`: the words that raise or lower a score.
-  Defaults reward flexibility, async work and your HR systems, and penalize on
-  call, 24/7 and crisis style language.
-- `home_state`: roles limited to another state are hidden unless you tick the box.
-- `max_age_days`, `notify_min_score`.
+- job title keywords, grouped by role type (or add a whole new group),
+- words that exclude a job,
+- good signs and red flags in descriptions, with how much each counts,
+- employers to watch (Greenhouse, Lever and Ashby company names),
+- the alert score and how old a job can be.
+
+Press **Save and refresh jobs**. The site commits `docs/config.json` to the repo and starts
+a refresh, and new results appear in about two minutes.
+
+To enable saving, create a fine grained GitHub token at
+https://github.com/settings/personal-access-tokens/new, limited to this one repository,
+with **Contents** and **Actions** both set to Read and write. Paste it in Settings. It is stored
+only in that browser. You can also edit `docs/config.json` by hand.
+
+## Resume tab
+
+Paste your master resume once (format notes are on the page). Pick a listing, or paste any job
+description, and press **Generate tailored resume**. It reorders your own bullets and skills so
+the ones matching the job come first, shows words in the posting that your resume lacks, and
+never adds anything. Then print or save as PDF, copy the text, or copy a ready made prompt to
+have Claude do a deeper rewrite. The master resume is stored only in your browser.
 
 ## Notes
 
@@ -48,4 +59,5 @@ Edit `config.json`:
 - Sources are public APIs and feeds that allow this kind of use. Remotive, Jobicy and
   We Work Remotely ask that you link back to the listing, which the site does. Please
   do not add sites that forbid scraping, such as LinkedIn, Indeed or FlexJobs.
-- Run the tests with `python3 -I tests/test_scrape.py`.
+- Run the tests with `python3 -I tests/test_scrape.py` and `node tests/resume.test.js`.
+- The token lives in browser storage for the github.io address. Keep it fine grained and limited to this repo so a leak can do little.

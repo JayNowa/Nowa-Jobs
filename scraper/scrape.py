@@ -20,7 +20,7 @@ from email.utils import parsedate_to_datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-CFG_PATH = ROOT / "config.json"
+CFG_PATH = ROOT / "docs" / "config.json"
 OUT_PATH = ROOT / "docs" / "jobs.json"
 UA = "job-radar/1.0 (personal job search tool, runs a few times a day)"
 NOW = datetime.now(timezone.utc)
@@ -168,12 +168,14 @@ def all_sources(cfg):
 
 # ---------- filtering and scoring ----------
 def match_role(title, cfg):
+    """Keywords are plain words or phrases. Role keywords match at the start of a word
+    (so "recruit" finds "Recruiter"). Exclude words must match whole words."""
     t = title.lower()
-    for pat in cfg["exclude_titles"]:
-        if re.search(pat, t):
+    for word in cfg["exclude_titles"]:
+        if re.search(r"\b" + re.escape(word.lower()) + r"\b", t):
             return None
-    for role, pats in cfg["roles"].items():
-        if any(re.search(p, t) for p in pats):
+    for role, words in cfg["roles"].items():
+        if any(re.search(r"\b" + re.escape(w.lower()), t) for w in words):
             return role
     return None
 
@@ -244,7 +246,7 @@ def build(cfg, previous, fetchers=None):
             "id": jid, "title": j["title"], "company": j["company"], "url": j["url"], "source": j["source"],
             "role": role, "location": j["location"], "restricted": restricted, "pay": j["pay"],
             "posted": (posted or "")[:10], "first_seen": first_seen, "score": score, "why": why,
-            "flags": flags, "snippet": j["desc"][:280],
+            "flags": flags, "snippet": j["desc"][:280], "desc": j["desc"][:2500],
         })
 
     # carry over jobs from sources that failed this run
