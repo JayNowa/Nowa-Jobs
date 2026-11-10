@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T22:08+00:00",
+ "updated": "2026-11-10T19:45+00:00",
  "failed_sources": [],
  "scoring": {
   "positive": {
@@ -50,6 +50,30 @@
  },
  "jobs": [
   {
+   "id": "50b0909ec497",
+   "title": "Recruiter, R&D",
+   "company": "gitlab",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8869167002",
+   "source": "greenhouse:gitlab",
+   "role": "Recruiting",
+   "location": "Remote, Canada; Remote, India; Remote, Poland; Remote, United Kingdom; Remote, United States",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-11-10",
+   "first_seen": "2026-11-04",
+   "score": 66,
+   "why": [
+    "remote-first",
+    "mission",
+    "compliance",
+    "full-cycle",
+    "individual contributor"
+   ],
+   "flags": [],
+   "snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and m",
+   "desc": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. Co-create the future with us as we build technology that transforms how the world develops software. * Fortune 500\u00ae is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab. An overview of this role As a Technical Recruiter, you'll help GitLab build the engineering and product teams behind our DevSecOps platform. In this individual contributor role, you'll partner with leaders across Engineering, Product, Security, and UX and own searches from intake through close. You'll build inclusive pipelines and use data and market insight to guide hiring decisions, while growing into a trusted talent advisor. What you'll do Manage full-cycle searches for roles such as Backend and Frontend Engineers, Site Reliability Engineers, Security Engineers, Data Engineers, Engineering Managers, and Product Managers, delivering against agreed recruiting goals and key metrics with accurate, timely documentation in Greenhouse. Lead intake and kickoff conversations to align hiring teams on role scope, technical requirements, team context, interview plans, and timelines, with senior team guidance as needed. Partner with hiring teams on structured, equitable technical interviews with clear competencies and actionable feedback; challenge assumptions and escalate risks or blockers early. Use talent-market research, compensa"
+  },
+  {
    "id": "2f0845d80ef3",
    "title": "Manager, Sales Recruiting (AMER)",
    "company": "gitlab",
@@ -71,30 +95,6 @@
    "flags": [],
    "snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and m",
    "desc": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. Co-create the future with us as we build technology that transforms how the world develops software. * Fortune 500\u00ae is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab. An overview of this role As Manager, Sales Recruiting (Americas), you'll lead recruiting for Sales across the Americas, partnering with regional Sales leaders to hire the quota-carrying and go-to-market talent that supports GitLab's revenue growth. You'll develop a team of recruiters, build hiring strategies for different Sales functions and segments, and create repeatable processes that balance speed, quality, and candidate experience. You'll also stay close to the work by recruiting for senior and specialized Sales roles when needed. What you\u2019ll do Lead and develop the recruiting team supporting Sales across the Americas, using coaching, feedback, and clear development plans to build capability and accountability. Design recruiting strategies, structured interviews, and hiring frameworks that scale across the AMER market. Partner with Sales leaders to define talent needs, share market insights across the United States, Canada, and Latin America, and guide hiring decisions and trade-offs. Plan recruiting capacity against headcount and quota-capacity goals, balancing hiring speed, quality, and time to ramp. Embed diversity, "
-  },
-  {
-   "id": "50b0909ec497",
-   "title": "Recruiter, R&D",
-   "company": "gitlab",
-   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8869167002",
-   "source": "greenhouse:gitlab",
-   "role": "Recruiting",
-   "location": "Remote Ireland; Remote, Australia; Remote, Canada; Remote, India; Remote, Mexico; Remote, Poland; Remote, United Kingdom; Remote, United States",
-   "restricted": false,
-   "pay": "",
-   "posted": "2026-11-06",
-   "first_seen": "2026-11-04",
-   "score": 66,
-   "why": [
-    "remote-first",
-    "mission",
-    "compliance",
-    "full-cycle",
-    "individual contributor"
-   ],
-   "flags": [],
-   "snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and m",
-   "desc": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. Co-create the future with us as we build technology that transforms how the world develops software. * Fortune 500\u00ae is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab. An overview of this role As a Technical Recruiter, you'll help GitLab build the engineering and product teams behind our DevSecOps platform. In this individual contributor role, you'll partner with leaders across Engineering, Product, Security, and UX and own searches from intake through close. You'll build inclusive pipelines and use data and market insight to guide hiring decisions, while growing into a trusted talent advisor. What you'll do Manage full-cycle searches for roles such as Backend and Frontend Engineers, Site Reliability Engineers, Security Engineers, Data Engineers, Engineering Managers, and Product Managers, delivering against agreed recruiting goals and key metrics with accurate, timely documentation in Greenhouse. Lead intake and kickoff conversations to align hiring teams on role scope, technical requirements, team context, interview plans, and timelines, with senior team guidance as needed. Partner with hiring teams on structured, equitable technical interviews with clear competencies and actionable feedback; challenge assumptions and escalate risks or blockers early. Use talent-market research, compensa"
   },
   {
    "id": "49afc51698f7",
@@ -379,6 +379,27 @@
    "desc": "CodePath is the largest educator of college computer science students in the country. We've trained over 50,000 students from more than 1,000 universities. Our partners include Amazon, Google, and other leading technology companies. After nearly a decade of training technical talent, we launched a $150M initiative with Anthropic to prepare people for careers in AI. We're expanding into new markets and growing our team as AI changes the workforce. People joining CodePath now will help shape this next stage of our work. We believe technical skills create opportunities. Our goal is to train millions of learners and create lasting economic impact. If you want to build something new, take ownership, and see the results of your work, this is a place to do it. Location: Remote (US) Role Type: Full-Time Reporting to: Senior HR Business Partner, Claude Corps Compensation: $65,000 to $85,000 About Claude Corps Claude Corps is a fellowship that places early-career talent in nonprofits, government agencies, and public-interest organizations to build AI solutions those organizations can continue using after the fellowship ends. It is a partnership between Anthropic, CodePath, and Social Finance. Fellows are full-time employees for a one-year term. Cohorts now run in the hundreds, and new fellows onboard while earlier cohorts are still placed. We need a coordinator who can run the day-to-day onboarding work at that scale, in partnership with the Senior HR Business Partner, and make sure every step is organized, accurate, and completed on time. About the Role You run the day-to-day onboarding work for Claude Corps fellows, from signed offer through completion of required employment steps. You send instructions, track progress, maintain employee records, and coordinate payroll and benefits setup. The Senior HR Business Partner owns the overall onboarding process and handles sensitive questions and exceptions. You complete the work, keep fellows informed, and flag issues early. You work closely with recruiting, the Claude Corps program team, Finance, and our HR service providers. Between onboarding waves, you help maintain records, coordinate offboarding, and improve processes so the team is ready for the next cohort. What You\u2019ll Do Coordinate fellow onboarding Manage onboarding for each cohort, including offer tracking, background checks, I-9 verification, employee information collection, HRIS setup in CoAdvantage, and benefits enrollment Track required employment steps a"
   },
   {
+   "id": "f34f2378c568",
+   "title": "Sales Recruiter",
+   "company": "Apollo.io",
+   "url": "https://jobicy.com/jobs/160988-sales-recruiter-3",
+   "source": "jobicy",
+   "role": "Recruiting",
+   "location": "USA",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-11-10",
+   "first_seen": "2026-11-10",
+   "score": 56,
+   "why": [
+    "mission",
+    "full-cycle"
+   ],
+   "flags": [],
+   "snippet": "Apollo.io is the leading go-to-market solution for revenue teams, trusted by over 500,000 companies and millions of users globally, from rapidly growing startups to some of the world's largest enterprises. Founded in 2015, the company is one of the fastest growing companies in Sa",
+   "desc": "Apollo.io is the leading go-to-market solution for revenue teams, trusted by over 500,000 companies and millions of users globally, from rapidly growing startups to some of the world's largest enterprises. Founded in 2015, the company is one of the fastest growing companies in SaaS, raising approximately $250 million to date and valued at $1.6 billion. Apollo.io provides sales and marketing teams with easy access to verified contact data for over 210 million B2B contacts and 35 million companies worldwide, along with tools to engage and convert these contacts in one unified platform. By helping revenue professionals find the most accurate contact information and automating the outreach process, Apollo.io turns prospects into customers. Apollo raised a series D in 2023 and is backed by top-tier investors, including Sequoia Capital, Bain Capital Ventures, and more, and counts the former President and COO of Hubspot, JD Sherman, among its board members. About the Role Apollo is hiring a Sales Recruiter to own full-cycle recruiting across our GTM organization . This is a high-ownership role on a lean, high-performing team. You will manage a portfolio of mid and senior-level requisitions, build and execute sourcing strategies, and serve as a genuine business partner to your hiring managers. This role requires someone who operates with low oversight , self-diagnoses problems before they escalate , and brings a talent advisor posture to every stakeholder conversation. The best person for this role brings their own operating system and makes the team around them sharper. What You Will Do Own full-cycle recruiting for mid and senior-level roles across GTM Sales Hiring, with consistent delivery across multiple verticals simultaneously Build and execute sourcing strategies that generate qualified, diverse pipelines, and adapt those strategies based on funnel performance , not just instinct Conduct structured screens and interviews, design interview plans , and lead calibrated debriefs that result in clear, defensible hiring decisions Manage 20+ phone screens per week and drive 360+ outbound contacts per quarter Hold the bar on candidate quality , give direct and honest feedback, and avoid passing weak profiles to sidestep an uncomfortable conversation Maintain accurate, real-time pipeline data in Greenhouse and self-report on progress to leadership without being asked Track funnel metrics, identify root causes of slowdowns, and bring data-informed recommendations to "
+  },
+  {
    "id": "69b2947abcd2",
    "title": "People Partner GTM",
    "company": "Elevenlabs",
@@ -440,27 +461,6 @@
    "flags": [],
    "snippet": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to larg",
    "desc": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $781M in funding and our last valuation was $22B - multiples of 11, always. We have expanded from voice into three main platforms: ElevenAgents enables businesses to deliver seamless and intelligent customer experiences, with the integrations, testing, monitoring, and reliability necessary to deploy voice and chat agents at scale. ElevenCreative empowers creators and marketers to generate and edit speech, music, image, and video across 70+ languages. ElevenAPI gives developers access to our leading AI audio foundational models. Everything we do is the result of the creativity and commitment of our team - builders doing the best work of their lives. We are researchers, engineers, and operators. IOI medalists and ex-founders. If you want to work hard and create lasting positive impact, we want to hear from you. How we work High-velocity: Rapid experimentation, lean autonomous teams, and minimal bureaucracy. Impact not job titles: We don\u2019t have job titles. Instead, it\u2019s about the impact you have. No task is above or beneath you. AI first: We use AI to move faster with higher-quality results. We do this across the whole company\u2014from engineering to growth to operations. Excellence everywhere: Everything we do should match the quality of our AI models. Global team: We prioritize your talent, not your location. What we offer Innovative culture: You\u2019ll be part of a generational opportunity to define the trajectory of AI, surrounded by a team pushing the boundaries of what\u2019s possible. Growth paths: Joining ElevenLabs means joining a dynamic team with countless opportunities to drive impact - beyond your immediate role and responsibilities. Learning & development : ElevenLabs proactively supports professional development through an annual discretionary stipend. Social travel : We also provide an annual discretionary stipend to meet up with colleagues each year, however you choose. Annual team offsite: Each year, we bring your entire team together in a new location - past offsites have included Croatia, Italy and Canc\u00fan Co-w"
-  },
-  {
-   "id": "05e8444bfabc",
-   "title": "Recruiter - Sales",
-   "company": "Mercury",
-   "url": "https://jobicy.com/jobs/158681-recruiter-sales",
-   "source": "jobicy",
-   "role": "Recruiting",
-   "location": "Canada, USA",
-   "restricted": false,
-   "pay": "",
-   "posted": "2026-11-03",
-   "first_seen": "2026-11-04",
-   "score": 56,
-   "why": [
-    "mission",
-    "full-cycle"
-   ],
-   "flags": [],
-   "snippet": "Our Sales team is often the first group a founder or business owner talks to at Mercury, and the people who help them as their company grows. Who we hire onto that team shapes how customers experience Mercury. We're looking for a Sales Recruiter to help build and scale that team.",
-   "desc": "Our Sales team is often the first group a founder or business owner talks to at Mercury, and the people who help them as their company grows. Who we hire onto that team shapes how customers experience Mercury. We're looking for a Sales Recruiter to help build and scale that team. You'll own full-cycle searches across our sales organization, from high-volume roles like Sales Development Representatives to Account Executives and post-sales roles like Relationship Managers and Account Development. You'll work closely with hiring managers and senior recruiters, run searches end to end, and help improve how our recruiting team operates as we grow. This role is a good fit for someone who is organized, proactive, and comfortable owning their work. You should enjoy learning a new business quickly, work well with autonomy, and care about giving every candidate a thoughtful experience. What you'll do Own full-cycle recruiting for Account Executive, Sales Development, Relationship Manager, and Account Development roles, from sourcing to close Run kickoffs and calibration sessions with hiring managers to define what a strong candidate looks like, and adjust the search as you learn Identify and engage strong candidates through sourcing and inbound channels, using funnel data to decide where to spend your time Communicate clearly and consistently with stakeholders on pipeline health, progress, blockers, and recruiting timeline Represent Mercury to candidates, sharing our mission, culture, and what it's like to join a growing sales organization Spot opportunities to improve recruiting processes, tools, and documentation, and share them with the team Manage offers and closing for your searches What you'll need 2+ years of full-cycle recruiting experience, including at least 1 year in-house, ideally with sales roles such as account executives, SDRs, or account management Strong organization and attention to detail, with experience managing several searches at once, including at least one high-volume role Strong sourcing skills and ability to write compelling outreach Ability to work with recruiting data, such as pass-through rates and time to hire, to track your searches and spot where they're getting stuck Experience building strong relationships with hiring managers, including giving clear feedback and pushing back when needed Experience independently managing searches end to end, and knowing when to ask for help Comfort with some ambiguity, and a habit of seeking out fe"
   },
   {
    "id": "904f1f824496",
@@ -639,46 +639,6 @@
    "desc": "About Toptal Toptal is a global network of top talent in business, design, and technology that enables companies to scale their teams, on-demand. With $200+ million in annual revenue and team members based around the globe , Toptal is the world\u2019s largest fully remote workforce . We take the best elements of virtual teams and combine them with a support structure that encourages innovation, social interaction, and fun. We see no borders, move at a fast pace, and are never afraid to break the mold. Position Description We are seeking a highly versatile and experienced Sales Recruiter to join our dynamic team. In this role, you\u2019ll partner closely with our Sales leaders to strategically attract and hire top-tier sales talent across all levels - from individual contributors to VP level. As a key member of our Recruiting team, you\u2019ll act as a true business partner - collaborating with leadership to define search strategies and serving as a trusted advisor to help interview teams hire effectively and efficiently. We are looking for someone who is passionate about delivering world-class candidate experiences, has a strong track record of hiring top sales professionals, and thrives in a collaborative environment. You will own full life-cycle recruiting efforts, influence strategy, and help shape how we attract and engage high-performing candidates. This is a remote position. However, candidates must be located in the United States or Canada. We do not offer visa sponsorship or assistance. Resumes and communication must be submitted in English. Responsibilities: The following information is intended to describe the general nature and level of work being performed. It is not intended to be an exhaustive list of all duties, responsibilities, or required skills. Build and maintain a strong pipeline of highly qualified candidates for all Sales roles, partnering closely with Executive and Sales Leadership teams to ensure hiring goals are met. Proactively source, identify and engage top-performing talent across global markets. Conduct thorough candidate outreach and screening across multiple channels, effectively communicating role details while continuously assessing candidate fit. Design and coordinate customized interview processes that align with Toptal\u2019s high hiring bar and role specific requirements. Act as the primary point of contact for candidates, guiding them through each stage of the interview process and ensuring an exceptional candidate experience. Communica"
   },
   {
-   "id": "5630daa8dfe4",
-   "title": "Senior Tech Recruiter",
-   "company": "Socure",
-   "url": "https://jobicy.com/jobs/158767-senior-tech-recruiter",
-   "source": "jobicy",
-   "role": "Recruiting",
-   "location": "USA",
-   "restricted": false,
-   "pay": "",
-   "posted": "2026-11-03",
-   "first_seen": "2026-11-04",
-   "score": 53,
-   "why": [
-    "mission"
-   ],
-   "flags": [],
-   "snippet": "Why Socure? Socure is building the identity trust infrastructure for the digital economy \u2014 verifying 100% of good identities in real time and stopping fraud before it starts. The mission is big, the problems are complex, and the impact is felt by businesses, governments, and mill",
-   "desc": "Why Socure? Socure is building the identity trust infrastructure for the digital economy \u2014 verifying 100% of good identities in real time and stopping fraud before it starts. The mission is big, the problems are complex, and the impact is felt by businesses, governments, and millions of people every day. We hire people who want that level of responsibility. People who move fast, think critically, act like owners, and care deeply about solving customer problems with precision. If you want predictability or narrow scope, this won\u2019t be your place. If you want to help build the future of identity with a team that holds a high bar for itself \u2014 keep reading. Socure is expanding its Talent Acquisition team to include a technology-focused Senior Recruiter. In this high-impact role, you will be responsible for identifying and attracting world-class technical talent, including engineers, QA professionals, and designers. You will leverage the latest recruitment technologies and AI-driven tools to find top-tier talent and partner with hiring leaders to scale our technical organization. As a Senior Tech Recruiter, you will act as a storyteller and marketer, sourcing and engaging talent by painting a compelling picture of why Socure is the right career choice. You will be a data-driven partner to hiring managers, providing insights into funnel health and market trends while driving continuous improvement across the recruitment cycle. Socure's Talent Acquisition team is part of the People Ops organization and we pride ourselves on teamwork, driving outcomes, our commitment to candidate experience, and contributing to Socure\u2019s mission to eliminate identity fraud. Socure is the market leader in digital identity verification and fraud prevention. Our AI-powered platform helps enterprises and public sector organizations verify identities with the highest accuracy in the industry. Backed by top-tier investors and trusted by the world\u2019s largest organizations, Socure is driving the future of digital trust. As we scale rapidly, we are looking for exceptional recruiters who can navigate the complex tech landscape with precision and excellence. Responsibilities: Manage the full life-cycle recruiting process for critical technical roles including Software Engineering, QA, and the rest of the Technology Department Leverage the latest recruitment technology and AI tools to identify and attract elite talent, build live dashboards, automate processes and research evolving market trends"
-  },
-  {
-   "id": "626159c56bcf",
-   "title": "Recruiter - Technical",
-   "company": "Mercury",
-   "url": "https://jobicy.com/jobs/158684-recruiter-technical",
-   "source": "jobicy",
-   "role": "Recruiting",
-   "location": "Canada, USA",
-   "restricted": false,
-   "pay": "",
-   "posted": "2026-11-03",
-   "first_seen": "2026-11-04",
-   "score": 53,
-   "why": [
-    "full-cycle"
-   ],
-   "flags": [],
-   "snippet": "Since 2019, Mercury has been rebuilding banking* for the way modern companies work. We combine thoughtful design with strong engineering to offer checking and savings accounts, cards, payments, credit, treasury and the analytics that tie it all together. Everything we build comes",
-   "desc": "Since 2019, Mercury has been rebuilding banking* for the way modern companies work. We combine thoughtful design with strong engineering to offer checking and savings accounts, cards, payments, credit, treasury and the analytics that tie it all together. Everything we build comes from one belief: finance should be carefully crafted, fast and transparent, and it should stay out of the way so founders can get back to building. That belief only holds up if the right people are building it. Hiring is one of the most important ways we shape Mercury\u2019s future. In this role, you\u2019ll directly influence the teams building our products and the experience of our customers. As a Technical Recruiter, you\u2019ll own a focused set of searches from kickoff to close and partner closely with hiring managers along the way. *Mercury is a fintech company, not an FDIC-insured bank. Banking services provided through Choice Financial Group and Column N.A., Members FDIC. What you\u2019ll do Own full-cycle recruiting for engineering and data roles, from kick-off to close Build and maintain strong, healthy pipelines across multiple roles simultaneously Source candidates proactively and creatively to engage top technical talent Develop a deep understanding of Mercury\u2019s products, engineering challenges, and team needs Communicate clearly and consistently with stakeholders on pipeline health, progress, blockers, and recruiting timeline Own offer strategy and closing for your searches Deliver a candidate experience that's thoughtful and transparent from first touch to final decision You should have: 1-3 years of experience as a technical recruiter supporting engineering or data teams Strong sourcing skills that go beyond LinkedIn Recruiter Deep curiosity about the products and teams you support, and a strong understanding of how the roles you hire for drive impact Strong alignment with Mercury\u2019s values and ability to represent them authentically to candidates and your teammates Enjoy building diverse, inclusive, and high-performing teams, and lead with deep empathy, kindness, and care for the work you do Have a strong sense of urgency and ownership for the work you do, and be willing to help support hiring efforts across other areas of the business, as needed Mercury values diversity & belonging and is proud to be an Equal Employment Opportunity employer. All individuals seeking employment at Mercury are considered without regard to race, color, religion, national origin, age, sex, marital status,"
-  },
-  {
    "id": "a529098b9658",
    "title": "GTM Recruiter",
    "company": "AssemblyAI",
@@ -724,6 +684,28 @@
    "desc": "Headquarters: Remote Why AssemblyAI AssemblyAI builds the best-in-class Voice AI models powering the next generation of voice applications. We have a lab, and we also power our own models in our own proprietary inference environment. Our models serve 500M+ inference calls monthly, and process nearly 2 million hours of audio daily. The Voice AI space is at an inflection point; we\u2019re looking for the best talent we can find to join a rapidly scaling team that's defining the future of the industry. We are one of the most capital-efficient AI companies on the planet - and are rapidly approaching $1M ARR per employee. We sit among the top 5 most revenue-dense teams within the fastest-growing AI companies today. We have thousands of customers building with us including the top startups and world-renowned enterprises, and are serving at tremendous scale: we process nearly 2 million hours of audio daily and handle more than 15 million API calls every day. This is a rare growth-stage opportunity where the business is proven, the revenue is durable, and the growth trajectory is steep and getting steeper. We have a super flat culture and expect our employees to be deeply intimate with the details at all levels. If you've ever felt buried under layers of bureaucracy, starved of real ownership, or frustrated watching your work disappear into a slow-moving org, AssemblyAI is built differently. The company operates as a true meritocracy, with no heavy planning or approval processes and no gatekeeping on the tools or information you need. For anyone who genuinely cares about voice AI, not as a trend to chase, but as a technology to build, this is the place where the most interesting problems at the most interesting scale are being solved by a team small enough that you'll actually know everyone's name. About the Role AssemblyAI builds the foundational speech models behind the Voice AI products our customers build. The people who train those models and build the systems that serve them are some of the hardest people in tech to hire; and we need to hire a lot more of them in 2027. We\u2019re looking for a Senior Technical Recruiter to own hiring for our Research team and a portfolio of senior Engineering roles: Researchers, Research Engineers, and ML Engineers. You\u2019ll work directly with our research and engineering leaders, and you\u2019ll be expected to understand the work well enough to find, assess, and close people others can\u2019t. What You\u2019ll Do Own full-cycle recruiting for Researc"
   },
   {
+   "id": "0638dab087a3",
+   "title": "Lead HR Generalist - Americas",
+   "company": "Canonical",
+   "url": "https://jobicy.com/jobs/161104-lead-hr-generalist-americas",
+   "source": "jobicy",
+   "role": "HR generalist",
+   "location": "LATAM, Canada, USA",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-11-10",
+   "first_seen": "2026-11-10",
+   "score": 48,
+   "why": [
+    "remote first"
+   ],
+   "flags": [
+    "travel up to"
+   ],
+   "snippet": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation and IoT. ",
+   "desc": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1200+ colleagues in 75+ countries and very few office based roles. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution. The company is founder led, profitable and growing. We require an HR function that thinks and acts globally.\u200b We're looking for a Lead HR Generalist to offer their expertise to our AMER region. It's an exciting time to join with the opportunity to help shape and create an HR function for the future. The senior role will serve as a driver and practitioner in both regional and global HR initiatives. You will join a global team of HR professionals to provide precise, compliant and scalable HR operations to the business, advise and execute on HR issues across the whole employee life-cycle, and partner with leadership in your region. You will have an analytical approach, a keen eye for detail and the ability to interpret data trends and themes. Location: This role will be based remotely in the AMER region The role entails Deliver precise and compliant HR operations in a timely manner and with the highest degree of accuracy Interact closely with the Americas HR Manager and the Global Head of HR to create impact across all HR regions Be accountable for HR processes such as talent development, succession planning, performance assessments, onboarding, culture and engagement initiatives that drive a high performing team Work with managers across the business on performance management, organizational design, employee engagement, rewards- and workforce planning Partner with the HRIS team to develop and refine operational processes for day to day HR administration Coach and advise people managers on the full spectrum of employee relations issues across multiple countries Partner with people managers to support the delivery of appropriate training and development programs Establish a trusted partnership with the business in your region Drive diversity, equity, and inclusion initiatives Design new policies and deliver on busine"
+  },
+  {
    "id": "25c5ae767f77",
    "title": "People Partner",
    "company": "Customer.io",
@@ -742,6 +724,26 @@
    ],
    "snippet": "People Partner Hello, I\u2019m Danielle, Senior Director, People Experience at Customer.io ! We're expanding our people team in the United States and seeking a People Partner to support our global team in a fast-paced, innovative environment. This is a great fit for an HR professional",
    "desc": "People Partner Hello, I\u2019m Danielle, Senior Director, People Experience at Customer.io ! We're expanding our people team in the United States and seeking a People Partner to support our global team in a fast-paced, innovative environment. This is a great fit for an HR professional with a few years of experience who's ready to deepen their impact as a partner to the business. The People Partners at Customer.io are advocates for our people, leveraging their skills in data analytics, change management, and industry knowledge. They use these skills to enhance Customer.io \u2019s transformation, agility, and efficiency, delivering meaningful outcomes for both our team members and the business. You'll work alongside a cross-functional team to support talent management, development, retention, and organizational effectiveness. Strong communication, critical thinking, and a foundation in workforce planning will set you up for success. If you're passionate about contributing to a supportive, high-performing culture, we'd love for you to join our collaborative team. About Customer.io Over 8,000 companies \u2014 from scrappy startups to global brands \u2014 use our platform to send billions of emails, push notifications, in-app messages, and SMS every day. Customer.io powers automated communication that people actually want to receive. We help teams send smarter, more relevant messages using real-time behavioral data. Some things you'll do: Support business alignment: Partner with departmental leaders to understand business needs and help develop plans that build organizational capabilities and support growth. Performance management: Own and elevate our review cycles end to end \u2014 lead the annual and bi-annual processes, guide calibration and compensation decisions, and coach managers to build accountability and develop talent across the team. Employee relations: Guide managers and employees through day-to-day questions and concerns with fairness and sound judgment, fostering a positive, respectful work environment. Organizational development: Help assess team structures and work with leaders to identify areas for improvement and put changes into practice. Change management support: Support organizational change efforts and help build change-readiness across teams. Leadership support: Build strong working relationships with managers to understand their needs in the context of business goals, and provide day-to-day partnership and guidance. Data analysis: Review and analyze People met"
+  },
+  {
+   "id": "0dc74bce691a",
+   "title": "Graduate HR Generalist - Americas",
+   "company": "Canonical",
+   "url": "https://jobicy.com/jobs/161093-graduate-hr-generalist-americas",
+   "source": "jobicy",
+   "role": "HR generalist",
+   "location": "LATAM, Canada, USA",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-11-10",
+   "first_seen": "2026-11-10",
+   "score": 44,
+   "why": [],
+   "flags": [
+    "travel up to"
+   ],
+   "snippet": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation and IoT. ",
+   "desc": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1200+ colleagues in 75+ countries and very few office based roles. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution. The company is founder led, profitable and growing. We require an HR function that thinks and acts globally.\u200b We're looking for a Graduate HR Generalist to offer their expertise to our AMER region. It's an exciting time to join with the opportunity to help shape and create an HR function for the future. You will demonstrate a high work ethic and the personal confidence to set and defend high expectations of colleagues, counterparts and processes. You must be able to work independently, take a hands-on approach, and interface effectively with professionals at all levels. You'll need excellent communication, professional and interpersonal skills as well as the ability to function in a proactive, innovative environment. We look to HR both to support our colleagues in their personal needs and development, and also to maintain consistently high standards across multiple teams, managers and directors. Location: This role will be based remotely in the AMER region The role entails the individual to: Provide HR support by answering team members\u2019 questions and responding to requests regarding their employment and contracts, escalating when necessary. Requests may include information about the new starter process and onboarding, questions regarding global benefits, employment verifications, and other general inquiries. Maintain our HRIS, ensuring a high degree of accuracy and timeliness in processing all team member changes and new joiners. Owning global projects (e.g. engagement, training or culture initiatives) Partnering with the managers and employees - supporting HR processes and driving the people strategy for your areas of responsibility Working as a truly global partner to colleagues, especially leads, managers and executives Process new hires, including country-specific on-boarding documentation, creation of files,"
   },
   {
    "id": "70168df51426",
