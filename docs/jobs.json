@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T20:33+00:00",
+ "updated": "2026-11-19T07:28+00:00",
  "failed_sources": [],
  "scoring": {
   "positive": {
@@ -49,6 +49,30 @@
   }
  },
  "jobs": [
+  {
+   "id": "36b0568e7867",
+   "title": "Senior Recruiter, Public Sector GTM",
+   "company": "gitlab",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8945990002",
+   "source": "greenhouse:gitlab",
+   "role": "Recruiting",
+   "location": "Remote, United States",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-11-19",
+   "first_seen": "2026-11-19",
+   "score": 66,
+   "why": [
+    "remote-first",
+    "mission",
+    "compliance",
+    "full-cycle",
+    "individual contributor"
+   ],
+   "flags": [],
+   "snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and m",
+   "desc": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. Co-create the future with us as we build technology that transforms how the world develops software. * Fortune 500\u00ae is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab. An overview of this role As a Senior Recruiter, Public Sector GTM, you'll build the go-to-market (GTM) teams that drive GitLab's growth across U.S. federal, state, local, and education customers. In this senior individual contributor role, you'll partner with Public Sector leaders across Sales, Solutions Architecture, Customer Success, Professional Services, Field Operations, and Enablement, owning searches from intake through close. You'll build inclusive pipelines, use data and market insight to guide hiring decisions, and act as a trusted talent advisor to Public Sector leadership. What you\u2019ll do Manage full-cycle searches for Public Sector Account Executives, Solutions Architects, Customer Success, Professional Services, and Sales Operations roles. Deliver against agreed recruiting goals and key metrics, with accurate, timely documentation in Greenhouse. Lead intake conversations to align hiring teams on role scope, segment, territory, quota and ramp expectations, citizenship and clearance requirements, interview plans, and timelines. Support Federal Civilian, Department of Defense, Intelligence Community, and State, Loc"
+  },
   {
    "id": "50b0909ec497",
    "title": "Recruiter, R&D",
@@ -119,6 +143,29 @@
    "flags": [],
    "snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and m",
    "desc": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. Co-create the future with us as we build technology that transforms how the world develops software. * Fortune 500\u00ae is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab. An overview of this role As a GTM Recruiter you'll help GitLab build the go-to-market teams that drive our growth. In this individual contributor role, you'll partner with leaders across Sales, Marketing, Customer Success, Professional Services, Field Operations, Enablement and Ecosystems and own searches from intake through close. You'll build inclusive pipelines and use data and market insight to guide hiring decisions, while growing into a trusted talent advisor. What you'll do Manage full-cycle searches for Account Executives, Solutions Architects, Customer Success, Sales Development, and Sales Operations, delivering against agreed recruiting goals and key metrics with accurate, timely documentation in Greenhouse. Lead intake and kickoff conversations to align hiring teams on role scope, territory or segment, quota and ramp expectations, interview plans, and timelines, with senior team guidance as needed. Partner with hiring teams on structured, equitable interviews with clear competencies and actionable feedback; challenge assumptions and escalate risks or blockers early. Use talent-market research, compensation and on-"
+  },
+  {
+   "id": "1192ad38fd63",
+   "title": "Talent Partner",
+   "company": "Netlify",
+   "url": "https://weworkremotely.com/remote-jobs/netlify-talent-partner",
+   "source": "wwr",
+   "role": "Recruiting",
+   "location": "Anywhere in the World",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-11-19",
+   "first_seen": "2026-11-19",
+   "score": 65,
+   "why": [
+    "async",
+    "remote-first",
+    "mission",
+    "full-cycle"
+   ],
+   "flags": [],
+   "snippet": "Headquarters: Remote About the Team At Netlify, we\u2019re a remote-first, globally distributed company with 120+ employees working across 13 countries around the world. Together, we\u2019re building the platform for building and shipping web apps, with a mission to help anyone bring their",
+   "desc": "Headquarters: Remote About the Team At Netlify, we\u2019re a remote-first, globally distributed company with 120+ employees working across 13 countries around the world. Together, we\u2019re building the platform for building and shipping web apps, with a mission to help anyone bring their ideas to the web. As a Talent Partner, you\u2019ll play a key role in bringing in the people who will shape Netlify\u2019s next stage of growth. You\u2019ll partner closely with hiring leaders to help them make thoughtful, high-quality hiring decisions and will be deeply embedded in understanding this evolving job market and what makes not only great talent, but folks who align with Netlify\u2019s mission. With our team, you\u2019ll recruit across a wide variety of teams and talent markets, owning the full recruiting lifecycle and partnering closely with leaders across Sales, Marketing, Engineering, Product, Finance and other functions. Rather than specializing in one area, you\u2019ll build context quickly, learn what great talent looks like across different parts of the business, and help us find and hire exceptional people. We\u2019ve already built a number of our own tools and workflows on Netlify to make our day-to-day work better, and we\u2019re continuing to experiment with how AI can create even more leverage. With our team, you\u2019ll be using the same platform you\u2019re helping grow the team behind by shipping tools that improve your own work, experimenting with new ways of working, and contributing to how we continue to evolve how we hire. What You'll Do Own full-cycle recruiting across a broad mix of functions - GTM, G&A, and R&D - from intake through accepted offer, without needing a sourcer, coordinator, or ops partner to be effective Run search kickoffs, define and calibrate candidate profiles in partnership with hiring managers, and establish your own search strategy rather than waiting for one to be handed to you Independently develop proactive sourcing approaches for each search and build pipelines of passive talent while continuing to cultivate talent for difficult-to-fill roles and future hiring needs Conduct recruiter screens and develop a clear, evidenced point of view on candidates - sending hiring managers slates with real recommendations Own weekly search meetings with hiring managers: bring funnel data, market feedback, and a perspective on what's working and what isn't; diagnose problems and propose changes rather than just reporting that pipeline is light Act as a trusted talent advisor to hiring ma"
   },
   {
    "id": "15c9dae80d9a",
@@ -208,6 +255,27 @@
    "flags": [],
    "snippet": "Dandy is transforming the massive and antiquated dental industry\u2014an industry worth over $400B. Backed by some of the world\u2019s leading venture capital firms, we\u2019re on an ambitious mission to simplify and modernize every function of the dental practice through technology. As we expa",
    "desc": "Dandy is transforming the massive and antiquated dental industry\u2014an industry worth over $400B. Backed by some of the world\u2019s leading venture capital firms, we\u2019re on an ambitious mission to simplify and modernize every function of the dental practice through technology. As we expand our reach globally, Dandy is building the operating system for dental offices around the world\u2014empowering clinicians and their teams with technology, innovation, and world-class support to achieve more for their practices, their people, and their patients. About the Role At Dandy, we're reimagining the way People systems support people-first cultures. We\u2019re looking for a People Systems Manager who\u2019s excited to make an impact by optimizing how our teams access and interact with critical People tools. You\u2019ll lead the charge on managing our HRIS platform (UKG), driving innovation and data accuracy across our environment via seamless, and human-centered technology. This role reports into the Head of People Systems and Operations. This role is an opportunity to shape how technology supports our people and culture as we scale. What You'll Do Own the administration and optimization of our HRIS system (UKG Pro & WFM), ensuring it runs smoothly and securely. Serve as the technical expert across our UKG Pro modules including Core HCM, Payroll, Benefits, Compensation, Absence, Time Tracking, Security, and Reporting. Partner with People, Finance, and IT teams to gather requirements and deliver scalable solutions across our entire people systems environment. Drive automation, AI tools, and process improvements that reduce manual work and improve the employee experience. Expand and enhance self-service capabilities for employees and managers, making information easier to find and use. Lead system integrations, workflows, and configuration updates in alignment with business needs. Provide training, support, and guidance to HR team members and internal users. Troubleshoot issues and act as a go-to resource for all things HRIS. What We're Looking For You have deep experience managing and optimizing HR systems, specifically UKG Pro and WFM (required). You bring a strong understanding of HR operations, from hire to retire. You\u2019re tech-savvy and analytical. You love turning data into insights and action. You\u2019ve worked with tools like Ashby, Deel, Jira, or similar platforms and understand how they connect within the People tech ecosystem. You have experience and a strong aptitude for building AI app"
+  },
+  {
+   "id": "69b2947abcd2",
+   "title": "People Partner GTM",
+   "company": "Elevenlabs",
+   "url": "https://jobicy.com/jobs/159743-people-partner-gtm",
+   "source": "jobicy",
+   "role": "HR generalist",
+   "location": "USA",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-11-19",
+   "first_seen": "2026-11-19",
+   "score": 56,
+   "why": [
+    "remote-first",
+    "compliance"
+   ],
+   "flags": [],
+   "snippet": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to larg",
+   "desc": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $781M in funding and our last valuation was $22B - multiples of 11, always. We have expanded from voice into three main platforms: ElevenAgents enables businesses to deliver seamless and intelligent customer experiences, with the integrations, testing, monitoring, and reliability necessary to deploy voice and chat agents at scale. ElevenCreative empowers creators and marketers to generate and edit speech, music, image, and video across 70+ languages. ElevenAPI gives developers access to our leading AI audio foundational models. Everything we do is the result of the creativity and commitment of our team - builders doing the best work of their lives. We are researchers, engineers, and operators. IOI medalists and ex-founders. If you want to work hard and create lasting positive impact, we want to hear from you. How we work High-velocity: Rapid experimentation, lean autonomous teams, and minimal bureaucracy. Impact not job titles: We don\u2019t have job titles. Instead, it\u2019s about the impact you have. No task is above or beneath you. AI first: We use AI to move faster with higher-quality results. We do this across the whole company\u2014from engineering to growth to operations. Excellence everywhere: Everything we do should match the quality of our AI models. Global team: We prioritize your talent, not your location. What we offer Innovative culture: You\u2019ll be part of a generational opportunity to define the trajectory of AI, surrounded by a team pushing the boundaries of what\u2019s possible. Growth paths: Joining ElevenLabs means joining a dynamic team with countless opportunities to drive impact - beyond your immediate role and responsibilities. Learning & development : ElevenLabs proactively supports professional development through an annual discretionary stipend. Social travel : We also provide an annual discretionary stipend to meet up with colleagues each year, however you choose. Annual team offsite: Each year, we bring your entire team together in a new location - past offsites have included Croatia, Italy and Canc\u00fan Co-w"
   },
   {
    "id": "e7f5075b5fb9",
