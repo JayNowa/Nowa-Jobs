@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T07:19+00:00",
+ "updated": "2026-11-20T20:23+00:00",
  "failed_sources": [],
  "scoring": {
   "positive": {
@@ -49,6 +49,30 @@
   }
  },
  "jobs": [
+  {
+   "id": "95205dc0a4be",
+   "title": "Recruiter, R&D (AMER)",
+   "company": "gitlab",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8912848002",
+   "source": "greenhouse:gitlab",
+   "role": "Recruiting",
+   "location": "Remote, Canada; Remote, United States",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-11-20",
+   "first_seen": "2026-11-20",
+   "score": 66,
+   "why": [
+    "remote-first",
+    "mission",
+    "compliance",
+    "full-cycle",
+    "individual contributor"
+   ],
+   "flags": [],
+   "snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and m",
+   "desc": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. Co-create the future with us as we build technology that transforms how the world develops software. * Fortune 500\u00ae is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab. An overview of this role As a Technical Recruiter, you'll help GitLab build the engineering and product teams behind our DevSecOps platform. In this individual contributor role, you'll partner with leaders across Engineering, Product, Security, and UX and own searches from intake through close. You'll build inclusive pipelines and use data and market insight to guide hiring decisions, while growing into a trusted talent advisor. What you'll do Manage full-cycle searches for roles such as Backend and Frontend Engineers, Site Reliability Engineers, Security Engineers, Data Engineers, Engineering Managers, and Product Managers, delivering against agreed recruiting goals and key metrics with accurate, timely documentation in Greenhouse. Lead intake and kickoff conversations to align hiring teams on role scope, technical requirements, team context, interview plans, and timelines, with senior team guidance as needed. Partner with hiring teams on structured, equitable technical interviews with clear competencies and actionable feedback; challenge assumptions and escalate risks or blockers early. Use talent-market research, compensa"
+  },
   {
    "id": "36b0568e7867",
    "title": "Senior Recruiter, Public Sector GTM",
@@ -190,6 +214,30 @@
    "desc": "Headquarters: United States, Remote Job Title: People Operations Coordinator - Temp to FTE Opportunity, 3 month contract Job Location: United States, Remote This is a fully remote opportunity and can be worked from any location in the United States. ABOUT THE COMPANY: Salesloft is building the next era of enterprise revenue \u2014 one where teams make confident decisions powered by AI and real signals. By combining our scale, insights, and AI innovation, we're building the industry's first Predictive Revenue System, enabling humans and AI to work together to make smarter decisions and drive consistent growth. With thousands of customers using our platforms every day, we have an unmatched view into how revenue is actually won \u2014 the Revenue Context that reveals what happens, when, and with what outcome. This gives us a unique opportunity to transform an entire category and set a new benchmark for how modern revenue teams operate. Join us to help transform how companies around the world run revenue \u2014 and build the platform that will guide leading revenue teams into the future. THE OPPORTUNITY: At Salesloft, our People Operations Coordinator is foundational to a high-performing People team. Each coordinator embeds with their assigned business function(s) (e.g., Engineering, Marketing, Sales) to provide full employee lifecycle support, from offer through exit. As the first point of contact for employees and managers, coordinators deliver high-volume, high-accuracy service across HR transactions, data, leave, employee relations support, and employee questions, creating a consistently excellent employee experience. They partner closely with People Business Partners, keeping the work moving, the data clean, and the PBP fully informed, and work alongside Total Rewards, Benefits and Mobility, and Talent Acquisition so programs run smoothly. Each coordinator also serves as the expert for an assigned country, bringing local compliance knowledge, language, and time zone coverage to the team. Working within a shared services model, coordinators cover for one another across functions during peak periods and absences, and bring back improvements that strengthen the whole team. This is a broad, high-visibility role and a clear path toward People Business Partner or People Operations leadership. About 60 - 70% of your time supports your assigned business function(s) and their People Business Partner. That includes lifecycle transactions, employee data, questions, ER support, and"
   },
   {
+   "id": "c5bc174fa7ea",
+   "title": "Recruiting Coordinator (Contract)",
+   "company": "Phantom",
+   "url": "https://jobicy.com/jobs/163490-recruiting-coordinator-contract-2",
+   "source": "jobicy",
+   "role": "Recruiting",
+   "location": "USA",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-11-20",
+   "first_seen": "2026-11-20",
+   "score": 60,
+   "why": [
+    "flexible hours",
+    "fully remote",
+    "mission"
+   ],
+   "flags": [
+    "fast-paced"
+   ],
+   "snippet": "Phantom is on a mission to connect the world to the freedom of open markets. Tens of millions of people all over the world use Phantom to access global markets that never close, including perpetuals, prediction markets, tokenized assets, stablecoins and memes. Phantom users are a",
+   "desc": "Phantom is on a mission to connect the world to the freedom of open markets. Tens of millions of people all over the world use Phantom to access global markets that never close, including perpetuals, prediction markets, tokenized assets, stablecoins and memes. Phantom users are able to discover the markets that matter and the cultural moments that shape them, building conviction through real-time data and the verified performance of top traders. With self-custody and access to open networks at its core, Phantom lets them control their financial moves in the same app they use to safely store or spend money worldwide. Phantom has reached #1 in Google Play's finance category and consistently ranks in the top 50 apps across all categories. Check out our Forbes Fintech 50 and CNBC and Statista's World's Top Fintech Companies 2026 ! We are around 180 people, fully remote, backed by a $150M Series C investment from a16z, Sequoia Capital and Paradigm. Role Description We\u2019re looking for a highly organized, detail-oriented Recruiting Coordinator to support our recruiting team as we scale the organization. In this 6-month contract, you\u2019ll be owning interview logistics, keeping candidates informed, and helping us deliver a best-in-class candidate experience across technical and non-technical roles. This is a great opportunity for someone with coordination experience who wants to deepen their recruiting skills in a fast-paced, high-growth startup environment. Contract Details Duration: 6 months with possibility to extend Schedule: 40 hr. work week Location: ideally based in San Francisco, CA or New York City, NY What You\u2019ll Learn You will learn how to run end-to-end recruiting coordination for a high-growth startup & across multiple teams. You will get experience partnering with recruiters and hiring managers across multiple functions. You will learn foundational sourcing skills, including building top-of-funnel pipelines and using tools like LinkedIn Recruiter and Covey. You will observe how to track and analyze core recruiting metrics (pipeline health, conversion rates, time-to-hire). You will develop best practices for maintaining clean ATS data and creating simple reports/dashboards. You will be able to deliver a best-in-class candidate experience through clear communication and strong logistics. Responsibilities Assist recruitment team by coordinating and scheduling interviews throughout all stages of the interview process, ensuring a positive and professional int"
+  },
+  {
    "id": "f55c8cccbb50",
    "title": "HR Technology & Analytics Specialist",
    "company": "Mineralys Therapeutics",
@@ -210,27 +258,6 @@
    "flags": [],
    "snippet": "\u201c Mineralys Therapeutics is a clinical-stage biopharmaceutical company focused on developing medicines to target hypertension and related comorbidities such as chronic kidney disease (CKD), obstructive sleep apnea (OSA) and other diseases driven by dysregulated aldosterone. Its i",
    "desc": "\u201c Mineralys Therapeutics is a clinical-stage biopharmaceutical company focused on developing medicines to target hypertension and related comorbidities such as chronic kidney disease (CKD), obstructive sleep apnea (OSA) and other diseases driven by dysregulated aldosterone. Its initial product candidate, lorundrostat, is a proprietary, orally administered, highly selective aldosterone synthase inhibitor. Mineralys is headquartered in Radnor, Pennsylvania. For more information, please visit https://mineralystx.com . Follow Mineralys on LinkedIn, Twitter and Bluesky\u201d Mineralys is a fully remote company. HR Technology & Analytics Specialist The HR Technology and Analytics Specialist supports HR systems, reporting, and workforce analytics activities, with a focus on Workday HCM. The role provides day-to-day HRIS support, develops and maintains standard and moderately complex reports, assists with system enhancements and testing, and supports HR data quality and governance processes. The position works with HR, IT, and business stakeholders to gather requirements, troubleshoot issues, and deliver accurate reporting and dashboards. The ideal candidate combines hands-on HR systems and reporting experience with strong analytical, problem-solving, and communication capabilities. Key Responsibilities HR Technology Support Provide day-to-day functional support for Workday and other HR technology platforms. Troubleshoot HR technology issues, research root causes, and coordinate resolution with HR, IT, vendors, and other stakeholders. Gather and document business requirements and support the development, testing, and deployment of Workday configuration changes under the guidance of senior HR Technology or IT resources. Identify and support process improvement opportunities by reviewing Workday system releases, documenting potential enhancements, and participating in approved HR technology enhancement projects. Support employee and manager self-service adoption through user guidance, training, support materials, and approved system or process enhancements. Participate in HR technology projects, implementations, integrations, and process improvement initiatives by completing assigned tasks or workstreams and escalating complex design decisions. Create and maintain system configuration documentation, process guides and end-user support materials for HR technology platforms and processes. HR Analytics and Reporting Develop, maintain, and enhance standard and moderately com"
-  },
-  {
-   "id": "f65273bf9098",
-   "title": "HRIS Manager",
-   "company": "Dandy",
-   "url": "https://jobicy.com/jobs/161910-hris-manager",
-   "source": "jobicy",
-   "role": "HRIS",
-   "location": "USA",
-   "restricted": false,
-   "pay": "",
-   "posted": "2026-11-13",
-   "first_seen": "2026-11-13",
-   "score": 57,
-   "why": [
-    "mission",
-    "ukg"
-   ],
-   "flags": [],
-   "snippet": "Dandy is transforming the massive and antiquated dental industry\u2014an industry worth over $400B. Backed by some of the world\u2019s leading venture capital firms, we\u2019re on an ambitious mission to simplify and modernize every function of the dental practice through technology. As we expa",
-   "desc": "Dandy is transforming the massive and antiquated dental industry\u2014an industry worth over $400B. Backed by some of the world\u2019s leading venture capital firms, we\u2019re on an ambitious mission to simplify and modernize every function of the dental practice through technology. As we expand our reach globally, Dandy is building the operating system for dental offices around the world\u2014empowering clinicians and their teams with technology, innovation, and world-class support to achieve more for their practices, their people, and their patients. About the Role At Dandy, we're reimagining the way People systems support people-first cultures. We\u2019re looking for a People Systems Manager who\u2019s excited to make an impact by optimizing how our teams access and interact with critical People tools. You\u2019ll lead the charge on managing our HRIS platform (UKG), driving innovation and data accuracy across our environment via seamless, and human-centered technology. This role reports into the Head of People Systems and Operations. This role is an opportunity to shape how technology supports our people and culture as we scale. What You'll Do Own the administration and optimization of our HRIS system (UKG Pro & WFM), ensuring it runs smoothly and securely. Serve as the technical expert across our UKG Pro modules including Core HCM, Payroll, Benefits, Compensation, Absence, Time Tracking, Security, and Reporting. Partner with People, Finance, and IT teams to gather requirements and deliver scalable solutions across our entire people systems environment. Drive automation, AI tools, and process improvements that reduce manual work and improve the employee experience. Expand and enhance self-service capabilities for employees and managers, making information easier to find and use. Lead system integrations, workflows, and configuration updates in alignment with business needs. Provide training, support, and guidance to HR team members and internal users. Troubleshoot issues and act as a go-to resource for all things HRIS. What We're Looking For You have deep experience managing and optimizing HR systems, specifically UKG Pro and WFM (required). You bring a strong understanding of HR operations, from hire to retire. You\u2019re tech-savvy and analytical. You love turning data into insights and action. You\u2019ve worked with tools like Ashby, Deel, Jira, or similar platforms and understand how they connect within the People tech ecosystem. You have experience and a strong aptitude for building AI app"
   },
   {
    "id": "69b2947abcd2",
