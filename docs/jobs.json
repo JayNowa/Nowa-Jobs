@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T23:55+00:00",
+ "updated": "2026-11-24T09:57+00:00",
  "failed_sources": [],
  "scoring": {
   "positive": {
@@ -49,6 +49,31 @@
   }
  },
  "jobs": [
+  {
+   "id": "b3be84120da6",
+   "title": "Manager, Client Experience (HR Technology, HRIS/HCM)",
+   "company": "livingHR",
+   "url": "https://jobicy.com/jobs/156753-manager-client-experience-hr-technology-hris-hcm",
+   "source": "jobicy",
+   "role": "HRIS",
+   "location": "USA",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-11-24",
+   "first_seen": "2026-11-24",
+   "score": 74,
+   "why": [
+    "part-time",
+    "remote-first",
+    "mission",
+    "adp",
+    "ukg",
+    "workday"
+   ],
+   "flags": [],
+   "snippet": "Position Details Location: Remote (FL, CO, IL, MA, NH, RI, ME, CT, GA, SC, NC, TX, TN) Type: Remote, Full-time Work Model: Remote-first (Work from Where it Makes Sense \u2013 WfWiMS) Compensation: $71,000-$115,000 plus incentives Who We Are livingHR is the remote-first, professional s",
+   "desc": "Position Details Location: Remote (FL, CO, IL, MA, NH, RI, ME, CT, GA, SC, NC, TX, TN) Type: Remote, Full-time Work Model: Remote-first (Work from Where it Makes Sense \u2013 WfWiMS) Compensation: $71,000-$115,000 plus incentives Who We Are livingHR is the remote-first, professional services \"work agency\" created to make work better. We partner with organizations to deliver human-centric, future-of-work-ready HR-managed services, professional services, and products. We believe in taking exceptional care of our people so they can deliver exceptional outcomes for clients, partners, and communities. What You'll Do Own and operate human resources for across industries and company sizes. In addition to providing HR support, this role will lead HRIS/HCM implementations for our clients. You'll be one of the internal experts on our clients' HR tech stack using systems such as HiBob, Lattice, Dayforce, Rippling, UKG, Paylocity Workday, and/or ADP), keeping platforms configured, integrated, compliant, and optimized. Day-to-Day Responsibilities HRIS/HCM System Ownership Administer and maintain the core HRIS platform (e.g., HiBob, Dayforce, Rippling), including workflows, permissions, and data integrity Administer performance and engagement platforms (e.g., Lattice) for goals, reviews, and feedback cycles Manage system integrations across HRIS, performance, payroll, benefits, and other downstream tools Implementation & Optimization Lead configurations for clients implementing new HCM systems to include leading change management, new module rollouts, and system upgrades Build and maintain automated workflows to reduce manual HR admin Partner with People team leaders to translate process needs into system design Data & Compliance Own HR data integrity, reporting, and audit readiness across systems Ensure HRIS practices meet federal, state, and local compliance requirements Deliver dashboards and reporting that support workforce planning and OKRs People Operations & Core HR Optimize HR processes, policies, and systems for efficiency and compliance. Implement core HR practices: onboarding, employee relations, policy development. Advise on federal, state, and local employment law compliance. What We Are Looking For Core Competencies Generalist across livingHR's focus areas (tech, payroll, innovation, people analytics, operations, people and culture), with strong data storytelling skills. Client and project management; owns relationships, deadlines, and delivery end to end. Faci"
+  },
   {
    "id": "6f72fd94c9f5",
    "title": "Technical Recruiter",
@@ -216,6 +241,29 @@
    "desc": "Headquarters: Remote About the Team At Netlify, we\u2019re a remote-first, globally distributed company with 120+ employees working across 13 countries around the world. Together, we\u2019re building the platform for building and shipping web apps, with a mission to help anyone bring their ideas to the web. As a Talent Partner, you\u2019ll play a key role in bringing in the people who will shape Netlify\u2019s next stage of growth. You\u2019ll partner closely with hiring leaders to help them make thoughtful, high-quality hiring decisions and will be deeply embedded in understanding this evolving job market and what makes not only great talent, but folks who align with Netlify\u2019s mission. With our team, you\u2019ll recruit across a wide variety of teams and talent markets, owning the full recruiting lifecycle and partnering closely with leaders across Sales, Marketing, Engineering, Product, Finance and other functions. Rather than specializing in one area, you\u2019ll build context quickly, learn what great talent looks like across different parts of the business, and help us find and hire exceptional people. We\u2019ve already built a number of our own tools and workflows on Netlify to make our day-to-day work better, and we\u2019re continuing to experiment with how AI can create even more leverage. With our team, you\u2019ll be using the same platform you\u2019re helping grow the team behind by shipping tools that improve your own work, experimenting with new ways of working, and contributing to how we continue to evolve how we hire. What You'll Do Own full-cycle recruiting across a broad mix of functions - GTM, G&A, and R&D - from intake through accepted offer, without needing a sourcer, coordinator, or ops partner to be effective Run search kickoffs, define and calibrate candidate profiles in partnership with hiring managers, and establish your own search strategy rather than waiting for one to be handed to you Independently develop proactive sourcing approaches for each search and build pipelines of passive talent while continuing to cultivate talent for difficult-to-fill roles and future hiring needs Conduct recruiter screens and develop a clear, evidenced point of view on candidates - sending hiring managers slates with real recommendations Own weekly search meetings with hiring managers: bring funnel data, market feedback, and a perspective on what's working and what isn't; diagnose problems and propose changes rather than just reporting that pipeline is light Act as a trusted talent advisor to hiring ma"
   },
   {
+   "id": "58d8a6902133",
+   "title": "Manager, Legal Lateral Recruiting",
+   "company": "livingHR",
+   "url": "https://jobicy.com/jobs/156759-manager-legal-lateral-recruiting",
+   "source": "jobicy",
+   "role": "Recruiting",
+   "location": "USA",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-11-24",
+   "first_seen": "2026-11-24",
+   "score": 64,
+   "why": [
+    "remote-first",
+    "mission",
+    "full-cycle",
+    "individual contributor"
+   ],
+   "flags": [],
+   "snippet": "Location Remote (FL, CO, IL, MA, NH, RI, ME, CT, GA, SC, NC, TX, TN) The position can be based in any of our approved markets/states listed above. Type : Full-Time Compensation - Base salary: $71,000 - $115,000 plus incentives We offer a competitive base salary complemented by a ",
+   "desc": "Location Remote (FL, CO, IL, MA, NH, RI, ME, CT, GA, SC, NC, TX, TN) The position can be based in any of our approved markets/states listed above. Type : Full-Time Compensation - Base salary: $71,000 - $115,000 plus incentives We offer a competitive base salary complemented by a performance-driven commission structure tied to successful placements. This role is tailored for a strong individual contributor who wants a compensation model that scales directly with their search delivery and results. Who We Are\u2026 Let us introduce ourselves. livingHR is the remote-first, professional services \"work agency\" created to make work better. We partner with organizations to deliver human-centric, future-of-work-ready HR managed services, executive search, and talent solutions. Our Legal Search practice focuses on placing high-caliber legal leadership \u2014 including lateral law firm partners and General Counsel \u2014 who shape the future of organizations. We believe in taking exceptional care of our people so they can deliver exceptional outcomes for clients, partners, and communities. We are adaptable, entrepreneurial, and always looking to iterate and improve. If you thrive in a fast-moving, performance-based environment and believe variety is the spice of life, you will likely enjoy our way of working. To learn more about our Culture Code, Cares Campaign, and our WeBelong work in Diversity, Equity, and Inclusion visit our website: https://livinghr.com/ . As a Full-Time Team Member, We Offer You Autonomy & Flexibility We call it WfWiMS \u2014 \"Work from Where it Makes Sense.\" This flexibility comes with responsibility to self-manage and perform at a high level. Compensation Competitive, fair, and transparent base salary plus incentives for successful placements. Comprehensive Benefits Medical, dental, 401k, STD/LTD, life insurance, and telehealth mental health counseling. Flexible PTO / Paid Holidays Minimum PTO usage encouraged plus 23 paid holidays. A Culture of Impact and Humanity We care about the impact we make and the humanity we extend to each other, our clients, and our community. Position Overview livingHR is seeking a high-performing, agency-experienced Manager, Legal Lateral Recruiting to join our growing Executive Search practice. This is a full-desk role requiring demonstrated success in: Recruiting lateral law firm partners and legal executives Placing General Counsel and Deputy GC talent Managing external client relationships Delivering exceptional legal talent for "
+  },
+  {
    "id": "15c9dae80d9a",
    "title": "People Operations Manager",
    "company": "Gr\u00fcns",
@@ -286,28 +334,6 @@
    "desc": "Phantom is on a mission to connect the world to the freedom of open markets. Tens of millions of people all over the world use Phantom to access global markets that never close, including perpetuals, prediction markets, tokenized assets, stablecoins and memes. Phantom users are able to discover the markets that matter and the cultural moments that shape them, building conviction through real-time data and the verified performance of top traders. With self-custody and access to open networks at its core, Phantom lets them control their financial moves in the same app they use to safely store or spend money worldwide. Phantom has reached #1 in Google Play's finance category and consistently ranks in the top 50 apps across all categories. Check out our Forbes Fintech 50 and CNBC and Statista's World's Top Fintech Companies 2026 ! We are around 180 people, fully remote, backed by a $150M Series C investment from a16z, Sequoia Capital and Paradigm. Role Description We\u2019re looking for a highly organized, detail-oriented Recruiting Coordinator to support our recruiting team as we scale the organization. In this 6-month contract, you\u2019ll be owning interview logistics, keeping candidates informed, and helping us deliver a best-in-class candidate experience across technical and non-technical roles. This is a great opportunity for someone with coordination experience who wants to deepen their recruiting skills in a fast-paced, high-growth startup environment. Contract Details Duration: 6 months with possibility to extend Schedule: 40 hr. work week Location: ideally based in San Francisco, CA or New York City, NY What You\u2019ll Learn You will learn how to run end-to-end recruiting coordination for a high-growth startup & across multiple teams. You will get experience partnering with recruiters and hiring managers across multiple functions. You will learn foundational sourcing skills, including building top-of-funnel pipelines and using tools like LinkedIn Recruiter and Covey. You will observe how to track and analyze core recruiting metrics (pipeline health, conversion rates, time-to-hire). You will develop best practices for maintaining clean ATS data and creating simple reports/dashboards. You will be able to deliver a best-in-class candidate experience through clear communication and strong logistics. Responsibilities Assist recruitment team by coordinating and scheduling interviews throughout all stages of the interview process, ensuring a positive and professional int"
   },
   {
-   "id": "f55c8cccbb50",
-   "title": "HR Technology & Analytics Specialist",
-   "company": "Mineralys Therapeutics",
-   "url": "https://jobicy.com/jobs/162765-hr-technology-analytics-specialist",
-   "source": "jobicy",
-   "role": "HRIS",
-   "location": "USA",
-   "restricted": false,
-   "pay": "",
-   "posted": "2026-11-17",
-   "first_seen": "2026-11-17",
-   "score": 59,
-   "why": [
-    "fully remote",
-    "workday",
-    "compliance"
-   ],
-   "flags": [],
-   "snippet": "\u201c Mineralys Therapeutics is a clinical-stage biopharmaceutical company focused on developing medicines to target hypertension and related comorbidities such as chronic kidney disease (CKD), obstructive sleep apnea (OSA) and other diseases driven by dysregulated aldosterone. Its i",
-   "desc": "\u201c Mineralys Therapeutics is a clinical-stage biopharmaceutical company focused on developing medicines to target hypertension and related comorbidities such as chronic kidney disease (CKD), obstructive sleep apnea (OSA) and other diseases driven by dysregulated aldosterone. Its initial product candidate, lorundrostat, is a proprietary, orally administered, highly selective aldosterone synthase inhibitor. Mineralys is headquartered in Radnor, Pennsylvania. For more information, please visit https://mineralystx.com . Follow Mineralys on LinkedIn, Twitter and Bluesky\u201d Mineralys is a fully remote company. HR Technology & Analytics Specialist The HR Technology and Analytics Specialist supports HR systems, reporting, and workforce analytics activities, with a focus on Workday HCM. The role provides day-to-day HRIS support, develops and maintains standard and moderately complex reports, assists with system enhancements and testing, and supports HR data quality and governance processes. The position works with HR, IT, and business stakeholders to gather requirements, troubleshoot issues, and deliver accurate reporting and dashboards. The ideal candidate combines hands-on HR systems and reporting experience with strong analytical, problem-solving, and communication capabilities. Key Responsibilities HR Technology Support Provide day-to-day functional support for Workday and other HR technology platforms. Troubleshoot HR technology issues, research root causes, and coordinate resolution with HR, IT, vendors, and other stakeholders. Gather and document business requirements and support the development, testing, and deployment of Workday configuration changes under the guidance of senior HR Technology or IT resources. Identify and support process improvement opportunities by reviewing Workday system releases, documenting potential enhancements, and participating in approved HR technology enhancement projects. Support employee and manager self-service adoption through user guidance, training, support materials, and approved system or process enhancements. Participate in HR technology projects, implementations, integrations, and process improvement initiatives by completing assigned tasks or workstreams and escalating complex design decisions. Create and maintain system configuration documentation, process guides and end-user support materials for HR technology platforms and processes. HR Analytics and Reporting Develop, maintain, and enhance standard and moderately com"
-  },
-  {
    "id": "69b2947abcd2",
    "title": "People Partner GTM",
    "company": "Elevenlabs",
@@ -327,6 +353,30 @@
    "flags": [],
    "snippet": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to larg",
    "desc": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $781M in funding and our last valuation was $22B - multiples of 11, always. We have expanded from voice into three main platforms: ElevenAgents enables businesses to deliver seamless and intelligent customer experiences, with the integrations, testing, monitoring, and reliability necessary to deploy voice and chat agents at scale. ElevenCreative empowers creators and marketers to generate and edit speech, music, image, and video across 70+ languages. ElevenAPI gives developers access to our leading AI audio foundational models. Everything we do is the result of the creativity and commitment of our team - builders doing the best work of their lives. We are researchers, engineers, and operators. IOI medalists and ex-founders. If you want to work hard and create lasting positive impact, we want to hear from you. How we work High-velocity: Rapid experimentation, lean autonomous teams, and minimal bureaucracy. Impact not job titles: We don\u2019t have job titles. Instead, it\u2019s about the impact you have. No task is above or beneath you. AI first: We use AI to move faster with higher-quality results. We do this across the whole company\u2014from engineering to growth to operations. Excellence everywhere: Everything we do should match the quality of our AI models. Global team: We prioritize your talent, not your location. What we offer Innovative culture: You\u2019ll be part of a generational opportunity to define the trajectory of AI, surrounded by a team pushing the boundaries of what\u2019s possible. Growth paths: Joining ElevenLabs means joining a dynamic team with countless opportunities to drive impact - beyond your immediate role and responsibilities. Learning & development : ElevenLabs proactively supports professional development through an annual discretionary stipend. Social travel : We also provide an annual discretionary stipend to meet up with colleagues each year, however you choose. Annual team offsite: Each year, we bring your entire team together in a new location - past offsites have included Croatia, Italy and Canc\u00fan Co-w"
+  },
+  {
+   "id": "f617296d3cf1",
+   "title": "Executive Recruiter",
+   "company": "Sezzle",
+   "url": "https://weworkremotely.com/remote-jobs/sezzle-executive-recruiter",
+   "source": "wwr",
+   "role": "Recruiting",
+   "location": "Anywhere in the World",
+   "restricted": false,
+   "pay": "",
+   "posted": "2026-11-24",
+   "first_seen": "2026-11-24",
+   "score": 55,
+   "why": [
+    "fully remote",
+    "mission",
+    "full-cycle"
+   ],
+   "flags": [
+    "fast-paced"
+   ],
+   "snippet": "Headquarters: Mexico, Remote About Sezzle: With a mission to financially empower the next generation, Sezzle is revolutionizing the shopping experience beyond payments, blending cutting-edge tech with seamless, interest-free installment plans that make shopping smarter and more a",
+   "desc": "Headquarters: Mexico, Remote About Sezzle: With a mission to financially empower the next generation, Sezzle is revolutionizing the shopping experience beyond payments, blending cutting-edge tech with seamless, interest-free installment plans that make shopping smarter and more accessible. We\u2019re not just transforming payments; we\u2019re redefining how people discover, interact with, and purchase the things they love while driving real impact on merchant sales through increased conversions and higher order values. As we continue to shape the future of fintech and retail, we\u2019re building an innovative, dynamic team passionate about creating more than just a transaction but a truly unique shopping journey. If you\u2019re excited about pushing boundaries in tech and delivering a game-changing experience for consumers and merchants alike, come join us at Sezzle and help create the future of shopping! About the Role: We are seeking a talented and motivated Executive Recruiter who is best in class with a high IQ plus a high EQ. This role presents an exciting opportunity to thrive in a dynamic, fast-paced environment within a rapidly growing team, with abundant prospects for career advancement. As Sezzle's Executive Recruiter, you will be responsible for leading senior-level talent acquisition across the organization, with a sharp focus on the Banking, FinTech, and Technology sectors. You will serve as a strategic partner to leadership, driving full-cycle executive searches for C-suite roles and board of directors appointments. This fully remote position requires a seasoned recruitment professional who excels at identifying, engaging, and placing top-tier executive and board-level talent across Latin American and global markets. To move forward in the process, please attach your CV in English. CVs submitted in other languages will not be taken into consideration. What You'll Do: Manage full-cycle executive searches for C-suite roles (CEO, CFO, CTO, COO, CRO, CISO, and similar) and board of directors appointments. Develop and execute customized search strategies for each engagement, leveraging research, market intelligence, and a robust professional network. Serve as a trusted advisor to senior leadership, board committees, and hiring managers on market trends, compensation benchmarking, organizational design, and succession planning. Build and maintain a pipeline of high-caliber executive and board-level candidates within the Banking, FinTech, and Technology ecosystems. Cul"
   },
   {
    "id": "62ec1ce483af",
@@ -398,26 +448,6 @@
    ],
    "snippet": "Position Details Location: Remote (FL, CO, IL, MA, NH, RI, ME, CT, GA, SC, NC, TX) Type: Contract / 1099 Work Model: Remote-first (Work From Where It Makes Sense \u2013 WFWIMS) Compensation: $50/hr, plus % of placement fee to fill Who We Are livingHR is the remote-first, professional ",
    "desc": "Position Details Location: Remote (FL, CO, IL, MA, NH, RI, ME, CT, GA, SC, NC, TX) Type: Contract / 1099 Work Model: Remote-first (Work From Where It Makes Sense \u2013 WFWIMS) Compensation: $50/hr, plus % of placement fee to fill Who We Are livingHR is the remote-first, professional services \"work agency\" created to make work better. We partner with organizations to deliver human-centric, future-of-work-ready HR-managed services, professional services, and products. We believe in taking exceptional care of our people so they can deliver exceptional outcomes for clients, partners, and communities. Position Overview Lead legal talent search, selection, and delivery efforts to help clients secure high-caliber legal leadership. Responsibilities Search Strategy & Selection Lead full-cycle searches for lateral law firm partners and practice groups Lead full-cycle searches for General Counsel and Deputy GC roles Conduct market mapping, competitive intelligence, and talent landscape analysis Develop search strategies aligned to client business objectives Client Advisory & Account Management Serve as a trusted advisor to law firm leaders, corporate executives, and boards Partner with clients on succession planning and strategic legal talent needs Provide executive-level communication and search updates Deliver consultative guidance on compensation, law firm economics, and partner portability Candidate Experience & Relationship Building Build and maintain deep relationships with high-performing legal leaders Deliver an exceptional, white-glove candidate experience Serve as a trusted advisor to candidates navigating confidential transitions Maintain accurate CRM documentation, search tracking, and reporting Role Requirements Experience working directly with clients in legal, executive search, or agency settings Strong internal or functional expertise across legal recruiting and law firm structures Ability to operate independently in a fast-paced, client-facing environment Excellent communication, stakeholder management, and advisory skills Comfort working in flexible, project-based engagements 7+ years of legal or executive search experience preferred Willingness to travel occasionally as client needs require What You Can Expect livingHR engages contract consultants on a project-by-project basis. Engagement timing, scope, and duration vary based on client needs. Consultants may be considered for multiple opportunities over time as part of our long-term talent community."
-  },
-  {
-   "id": "2866bcc4eaab",
-   "title": "Sourcer, Business Recruiting",
-   "company": "Apollo.io",
-   "url": "https://jobicy.com/jobs/162756-sourcer-business-recruiting",
-   "source": "jobicy",
-   "role": "Recruiting",
-   "location": "USA",
-   "restricted": false,
-   "pay": "",
-   "posted": "2026-11-17",
-   "first_seen": "2026-11-17",
-   "score": 53,
-   "why": [
-    "mission"
-   ],
-   "flags": [],
-   "snippet": "Apollo.io is the leading go-to-market solution for revenue teams, trusted by over 500,000 companies and millions of users globally, from rapidly growing startups to some of the world's largest enterprises. Founded in 2015, the company is one of the fastest growing companies in Sa",
-   "desc": "Apollo.io is the leading go-to-market solution for revenue teams, trusted by over 500,000 companies and millions of users globally, from rapidly growing startups to some of the world's largest enterprises. Founded in 2015, the company is one of the fastest growing companies in SaaS, raising approximately $250 million to date and valued at $1.6 billion. Apollo.io provides sales and marketing teams with easy access to verified contact data for over 210 million B2B contacts and 35 million companies worldwide, along with tools to engage and convert these contacts in one unified platform. By helping revenue professionals find the most accurate contact information and automating the outreach process, Apollo.io turns prospects into customers. Apollo raised a series D in 2023 and is backed by top-tier investors, including Sequoia Capital, Bain Capital Ventures, and more, and counts the former President and COO of Hubspot, JD Sherman, among its board members. We are hiring Sourcers to build the pipelines behind Apollo's go to market and corporate hiring. Depending on the team you join, you will support either quota carrying sales roles (BDR, AE, and AM) or non quota GTM, Marketing, and G&A roles. You will create a best in class candidate experience while using the latest sourcing tools and channels to engage top talent, and you will build target company lists and outbound pipelines for both immediate and future hiring needs. You will partner directly with recruiters and hiring managers, and you will be measured on speed, volume, and quality. What you will do Own the top of funnel candidate lifecycle for your roles, from first point of contact through handoff to the recruiter Proactively identify passive talent using best practice sourcing techniques, including Boolean search strings Craft and send recruiting emails, campaigns, and Apollo sequences that earn replies Use best practice candidate communication to deliver a world class experience, and set clear expectations at every step Hand off candidates to the recruiter with a clear summary and context, including sales fit, motivation, and attainment history for quota carrying roles Coordinate with hiring managers to define and refine position requirements, target profiles, and pacing Build talent maps, target company lists, and always on talent pipelines for future hiring needs Report labor market intelligence on compensation, competitors, and talent availability to inform recruiting strategy Use quality data to me"
   },
   {
    "id": "bd851d00d191",
@@ -549,28 +579,6 @@
    "flags": [],
    "snippet": "RenoFi is hiring a recruiter to join our fast-growing, early-stage startup. As a sales-focused recruiter, you will be responsible for recruiting Senior Loan Officers with a proven track record of self-sourcing leads. Senior Loan Officers are able to offer the full range of RenoFi",
    "desc": "RenoFi is hiring a recruiter to join our fast-growing, early-stage startup. As a sales-focused recruiter, you will be responsible for recruiting Senior Loan Officers with a proven track record of self-sourcing leads. Senior Loan Officers are able to offer the full range of RenoFi\u2019s loan product suite, including RenoFi\u2019s exclusive home equity renovation loans. WHAT YOU'LL BE DOING: Own the end-to-end recruiting process for Senior Loan Officer candidates - you\u2019ll be their trusted contact and guide them from initial outreach and screening, to coordination of interviews with the team, and through the offer and reference check stages Engage with Sales leadership team to understand priorities for each market and corresponding resourcing needs Build trusted relationships with hiring managers and key stakeholders and coach them on hiring best practices Own the job posting process for various roles, including the drafting of job specs and posting to relevant sites including LinkedIn Manage and maintain the talent pipeline and leverage the data to inform hiring projections Maintain the ATS and provide timely and thoughtful feedback to all candidates to maintain data integrity Leverage all RenoFi recruiting platforms to actively engage and source candidates Validate potential candidate\u2019s mortgage production using data sources such as MMI Provide weekly updates to key stakeholders on activities and pipeline Champion RenoFi\u2019s culture & vision WHAT WE'RE LOOKING FOR: Preference will be given to candidates with significant experience in recruiting loan officers and sales roles Excellent verbal and written communication skills with proven negotiation skills Excellent time management and attention to detail Flexible and responsive to feedback, comfortable navigating ambiguity Committed to maintaining a high level of professionalism Proficient with Google Suite & ATS platforms \u2013 Our team uses Lever Compensation Compensation comprised of competitive base salary plus performance-based bonuses. Additional Information This role reports to our EVP of National Production and will work closely with our Retail Sales team. We are committed to hiring and cultivating a diverse team. If you are uncertain about whether you meet our requirements, please apply anyway! ABOUT US: The demand for home renovations has never been stronger, yet, it's surprisingly difficult for a new homeowner to renovate. It can take a decade to build up enough home equity and savings to pay for a major renovati"
-  },
-  {
-   "id": "e177de8b3d15",
-   "title": "HR Technology Consultant (Contract)",
-   "company": "livingHR",
-   "url": "https://jobicy.com/jobs/150723-hr-technology-consultant-contract",
-   "source": "jobicy",
-   "role": "HRIS",
-   "location": "USA",
-   "restricted": false,
-   "pay": "",
-   "posted": "2026-11-17",
-   "first_seen": "2026-11-17",
-   "score": 50,
-   "why": [
-    "remote-first"
-   ],
-   "flags": [
-    "fast-paced"
-   ],
-   "snippet": "This position is part of livingHR\u2019s talent community. By applying, you are expressing interest in joining our network of trusted professionals who partner with us on a contract basis when client project needs arise. This is not an immediate or guaranteed opening. Engagements are ",
-   "desc": "This position is part of livingHR\u2019s talent community. By applying, you are expressing interest in joining our network of trusted professionals who partner with us on a contract basis when client project needs arise. This is not an immediate or guaranteed opening. Engagements are project-based, and livingHR will reach out when an opportunity aligns with your experience, availability, and location. Position Details Location: Remote (FL, CO, IL, MA, NH, RI, ME, CT, GA, SC, NC, TX) Type: Contract / Fractional Work Model: Remote-first (Work from Where it Makes Sense \u2013 WfWiMS) Compensation: $50 - $75/hr Who We Are livingHR is the remote-first, professional services \u201cwork agency\u201d created to make work better. We partner with organizations to deliver human-centric, future-of-work-ready HR-managed services, professional services, and products. We believe in taking exceptional care of our people so they can deliver exceptional outcomes for clients, partners, and communities. Position Overview Lead HR technology selection, implementation, and optimization efforts to enable scalable, human-centric people operations. Responsibilities Deliver modern, human-centric HR solutions that improve workplace experiences Support client engagements with a focus on delivery excellence, strategic alignment, and outcomes Serve as a trusted advisor throughout the engagement lifecycle Apply consulting, project management, and communication best practices Partner with livingHR Principals and client stakeholders to deliver value Track billable work and maintain accurate project documentation Align people strategies with broader business objectives HR Tech Strategy & Selection Lead requirements gathering and vendor selection Advise on HR systems architecture and roadmap Implementation & Optimization Oversee configuration, testing, and deployment Drive adoption through change management and training Data & Analytics Enable reporting, analytics, and insights through HR systems Role Requirements Experience working directly with clients in consulting, professional services, PEOs, or agencies Strong internal HR or functional expertise across relevant disciplines Ability to operate independently in a fast-paced, client-facing environment Excellent communication, stakeholder management, and advisory skills Comfort working in flexible, project-based engagements HR certifications or platform certifications preferred where applicable Willingness to travel occasionally as client needs require What Yo"
   },
   {
    "id": "970d8c166445",
